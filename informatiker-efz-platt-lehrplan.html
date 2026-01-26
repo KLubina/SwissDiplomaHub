@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="de">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Informatiker EFZ - Plattformentwicklung - Lehrplan</title>
+    <style>
+        :root {
+            --max-width: 1000px;
+            --text: #333;
+            --link: #0563c1;
+            --border: #777;
+            --bg-dark: #7f7f7f;
+            --bg-green: #00b050;
+            --bg-green-light: #92d050;
+            --bg-blue: #4472c4;
+            --bg-gray-light: #bfbfbf;
+            --bg-devops: #6b8e23;
+            /* DevOps als eigene Kategorie */
+        }
+
+        * {
+            box-sizing: border-box
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            color: var(--text);
+            background: #fff;
+            display: flex;
+            justify-content: center;
+        }
+
+        .container {
+            width: 100%;
+            max-width: var(--max-width);
+            padding: 16px;
+        }
+
+        .info-text {
+            padding: 12px;
+            font-size: 15px;
+            text-align: center;
+            line-height: 1.4;
+        }
+
+        .content-row {
+            display: flex;
+            gap: 6px;
+            align-items: flex-end;
+            margin-bottom: 8px;
+        }
+
+        .space-filler {
+            flex: 1
+        }
+
+        .column {
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            gap: 4px
+        }
+
+        .right-stack {
+            width: 200px;
+            flex: none
+        }
+
+        .box {
+            border: 1px solid var(--border);
+            padding: 8px;
+            text-align: center;
+            color: #fff;
+            font-size: 13px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            min-height: 48px;
+            word-break: break-word;
+            background: var(--bg-dark);
+            text-decoration: none;
+        }
+
+        .label-box {
+            height: 36px;
+            font-size: 12px;
+            border-top: 1px solid #ddd;
+            background: transparent;
+            color: #fff;
+        }
+
+        .semester-bar {
+            background: #000;
+            color: #fff;
+            text-align: center;
+            padding: 8px 0;
+            font-size: 18px;
+            margin: 16px 0 8px;
+        }
+
+        .bg-green {
+            background: var(--bg-green)
+        }
+
+        .bg-green-light {
+            background: var(--bg-green-light)
+        }
+
+        .bg-blue {
+            background: var(--bg-blue)
+        }
+
+        .bg-devops {
+            background: var(--bg-devops)
+        }
+
+        .bg-grey-light {
+            background: var(--bg-gray-light);
+            color: #fff
+        }
+
+        .bg-grey-dark {
+            background: var(--bg-dark)
+        }
+
+        a {
+            color: var(--link);
+            text-decoration: underline
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="container">
+
+        <div class="info-text">
+            <div>
+                Für ausführlichere Infos zu den einzelnen Modulen besuchen Sie die Seite <a
+                    href="https://www.modulbaukasten.ch/?d=1eac87d6-6d82-eb11-a812-0022486f6f83"
+                    target="_blank">modulbaukasten.ch</a> oder klicken Sie auf die Module direkt.
+            </div>
+        </div>
+
+        <div class="content-row">
+            <div class="column"></div>
+
+            <div class="column"></div>
+
+            <div class="column"></div>
+
+            <div class="column"></div>
+
+
+            <div class="column">
+                <a class="box h-large bg-grey-dark" href="https://www.modulbaukasten.ch/module/157/4/de-DE" target="_blank" rel="noopener">Modul 157 IT-System- Einführung planen und durchführen</a>
+                <div class="box label-box bg-grey-dark">IT-Operations</div>
+            </div>
+
+            <div class="column"></div>
+
+            <div class="column">
+                <a class="box h-med bg-grey-dark" href="https://www.modulbaukasten.ch/module/182/3/de-DE" target="_blank" rel="noopener">Modul 182 Systemsicherheit implementieren</a>
+                <div class="box label-box bg-grey-dark">Netzwerksicherheit</div>
+            </div>
+
+            <div class="column"></div>
+
+        </div>
+        <div class="semester-bar">4. Semester</div>
+
+
+        <div class="content-row">
+            <div class="column"></div>
+
+            <div class="column"></div>
+
+            <div class="column">
+                <a class="box h-med bg-devops" href="https://www.modulbaukasten.ch/module/210/1/de-DE" target="_blank" rel="noopener">Modul 210 Public Cloud für Anwendungen nutzen</a>
+                <div class="box label-box bg-devops">DevOps</div>
+            </div>
+
+            <div class="column">
+                <a class="box h-med bg-grey-dark" href="https://www.modulbaukasten.ch/module/145/3/de-DE" target="_blank" rel="noopener">Modul 145 Netzwerk betreiben und erweitern</a>
+                <div class="box label-box bg-grey-dark">Netzwerk-Grundlagen</div>
+            </div>
+
+            <div class="column">
+                <a class="box h-large bg-grey-dark" href="https://www.modulbaukasten.ch/module/300/4/de-DE" target="_blank" rel="noopener">Modul 300 Plattformübergreifende Dienste in ein Netzwerk integrieren</a>
+                <a class="box h-large bg-grey-dark" href="https://www.modulbaukasten.ch/module/159/3/de-DE" target="_blank" rel="noopener">Modul 159 Directoryservices konfigurieren und in Betrieb nehmen</a>
+                <div class="box label-box bg-grey-dark">Verzeichnisdienste</div>
+            </div>
+
+            <div class="column"></div>
+
+            <div class="column"></div>
+
+            <div class="column"></div>
+
+            <div class="column"></div>
+
+        </div>
+        <div class="semester-bar">3. Semester</div>
+
+
+        <div class="content-row">
+
+            <div class="column"></div>
+
+            <div class="column">
+                <a class="box h-med bg-green-light" href="https://www.modulbaukasten.ch/module/141/4/de-DE" target="_blank" rel="noopener">Modul 141 Datenbanksystem in Betrieb nehmen</a>
+                <div class="box label-box bg-green-light">Datenbanken</div>
+            </div>
+
+            <div class="column">
+                <a class="box h-med bg-devops" href="https://www.modulbaukasten.ch/module/346/1/de-DE" target="_blank" rel="noopener">Modul 346 Cloud Lösungen konzipieren und realisieren</a>
+                <div class="box label-box bg-devops">DevOps</div>
+            </div>
+
+            <div class="column">
+                <a class="box h-med bg-grey-dark" href="https://www.modulbaukasten.ch/module/123/2/de-DE" target="_blank" rel="noopener">Modul 123 Serverdienste in Betrieb nehmen</a>
+                <a class="box h-med bg-grey-dark" href="https://www.modulbaukasten.ch/module/129/3/de-DE" target="_blank" rel="noopener">Modul 129 LAN- Komponenten in Betrieb nehmen</a>
+                <div class="box label-box bg-grey-dark">Netzwerk-Grundlagen</div>
+            </div>
+
+            <div class="column"></div>
+
+            <div class="column">
+                <a class="box h-med bg-grey-dark" href="https://www.modulbaukasten.ch/module/188/1/de-DE" target="_blank" rel="noopener">Modul 188 Services betreiben, warten und überwachen</a>
+                <a class="box h-large bg-grey-dark" href="https://www.modulbaukasten.ch/module/158/3/de-DE" target="_blank" rel="noopener">Modul 158 Software- Migration planen und durchführen</a>
+                <a class="box h-med bg-grey-dark" href="https://www.modulbaukasten.ch/module/143/3/de-DE" target="_blank" rel="noopener">Modul 143 Backup- und Restore-Systeme implementieren</a>
+                <div class="box label-box bg-grey-dark">IT-Operations</div>
+            </div>
+
+            <div class="column">
+                <a class="box h-med bg-grey-dark" href="https://www.modulbaukasten.ch/module/190/1/de-DE" target="_blank" rel="noopener">Modul 190 Virtualisierungsplattform aufbauen und betreiben</a>
+                <a class="box h-med bg-grey-dark" href="https://www.modulbaukasten.ch/module/169/1/de-DE" target="_blank" rel="noopener">Modul 169 Services mit Containern bereitstellen</a>
+                <div class="box label-box bg-grey-dark">Virtualisierung</div>
+            </div>
+
+            <div class="column">
+                <a class="box h-med bg-grey-dark" href="https://www.modulbaukasten.ch/module/184/4/de-DE" target="_blank" rel="noopener">Modul 184 Netzwerksicherheit implementieren</a>
+                <div class="box label-box bg-grey-dark">Netzwerksicherheit</div>
+            </div>
+
+            <div class="column">
+                <a class="box h-med bg-blue" href="https://www.modulbaukasten.ch/module/245/1/de-DE" target="_blank" rel="noopener">Modul 245 Innovative ICT-Lösungen umsetzen</a>
+                <a class="box h-med bg-blue" href="https://www.modulbaukasten.ch/module/241/1/de-DE" target="_blank" rel="noopener">Modul 241 Innovative ICT-Lösungen initialisieren</a>
+                <div class="box label-box bg-blue">Projektmanagement</div>
+            </div>
+
+        </div>
+        <div class="semester-bar">2. Semester</div>
+
+
+        <div class="content-row">
+
+            <div class="column">
+                <a class="box h-xl bg-green" href="https://www.modulbaukasten.ch/module/114/4/de-DE" target="_blank" rel="noopener">Modul 114 Codierungs-, Kompressions- und Verschlüsselungsverfahren einsetzen</a>
+                <a class="box h-xl bg-green" href="https://www.modulbaukasten.ch/module/319/1/de-DE" target="_blank" rel="noopener">Modul 319 Applikationen entwerfen und implementieren</a>
+                <div class="box label-box bg-green" style="font-size: 11px;">Programmieren</div>
+            </div>
+
+            <div class="column">
+                <a class="box h-small bg-green-light" href="https://www.modulbaukasten.ch/module/106/1/de-DE" target="_blank" rel="noopener">Modul 106 Datenbanken abfragen, bearbeiten und warten</a>
+                <a class="box h-med bg-green-light" href="https://www.modulbaukasten.ch/module/164/1/de-DE" target="_blank" rel="noopener">Modul 164 Datenbanken erstellen und Daten einfügen</a>
+                <a class="box h-med bg-green-light" href="https://www.modulbaukasten.ch/module/162/1/de-DE" target="_blank" rel="noopener">Modul 162 Daten analysieren und modellieren</a>
+                <div class="box label-box bg-green-light">Datenbanken</div>
+            </div>
+
+            <div class="column"></div>
+
+            <div class="column">
+                <a class="box h-med bg-grey-dark" href="https://www.modulbaukasten.ch/module/122/3/de-DE" target="_blank" rel="noopener">Modul 122 Abläufe mit einer Scriptsprache automatisieren</a>
+                <a class="box h-xl bg-grey-dark" href="https://www.modulbaukasten.ch/module/117/4/de-DE" target="_blank" rel="noopener">Modul 117 Informatik- und Netzinfrastruktur für ein kleines Unternehmen realisieren</a>
+                <a class="box h-xl bg-grey-dark" href="https://www.modulbaukasten.ch/module/187/1/de-DE" target="_blank" rel="noopener">Modul 187 ICT- Arbeitsplatz mit Betriebssystem in Betrieb nehmen</a>
+                <div class="box label-box bg-grey-dark">Netzwerk-Grundlagen</div>
+            </div>
+
+            <div class="column"></div>
+
+            <div class="column"></div>
+
+            <div class="column"></div>
+
+            <div class="column"></div>
+
+            <div class="column">
+                <a class="box h-large bg-blue" href="https://www.modulbaukasten.ch/module/431/3/de-DE" target="_blank" rel="noopener">Modul 431 Aufträge im eigenen Berufsfeld selbstständig durchführen</a>
+                <a class="box h-large bg-blue" href="https://www.modulbaukasten.ch/module/254/3/de-DE" target="_blank" rel="noopener">Modul 254 Geschäftsprozesse im eigenen Berufsfeld beschreiben</a>
+                <a class="box h-large bg-blue" href="https://www.modulbaukasten.ch/module/306/4/de-DE" target="_blank" rel="noopener">Modul 306 Kleinprojekte im eigenen Berufsfeld abwickeln</a>
+                <a class="box h-med bg-blue" href="https://www.modulbaukasten.ch/module/231/1/de-DE" target="_blank" rel="noopener">Modul 231 Datenschutz und Datensicherheit anwenden</a>
+                <div class="box label-box bg-blue">Projektmanagement</div>
+            </div>
+
+        </div>
+        <div class="semester-bar">1. Semester</div>
+
+    </div>
+
+</body>
+
+
+</html>

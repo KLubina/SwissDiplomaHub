@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="de">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ICT-Manager HFP</title>
+    <style>
+        :root {
+            --max-width: 1100px;
+            --text: #333;
+            --link: #0563c1;
+            --border: #777;
+            --bg-dark-grey: #595959;
+            /* Netzwerk */
+            --bg-devops: #6b8e23;
+            /* DevOps als eigene Kategorie */
+            --bg-green: #00b050;
+            /* Software-Entwicklung */
+            --bg-green-light: #92d050;
+            /* Datenbanken */
+            --bg-blue: #4472c4;
+            /* IT-Projektmanagement */
+            --bg-web-dev: #00b050;
+            --bg-general-prog: #92d050;
+            --bg-further-sw: #548235;
+        }
+
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            color: var(--text);
+            background: #fff;
+            display: flex;
+            justify-content: center;
+        }
+
+        .container {
+            width: 100%;
+            max-width: var(--max-width);
+            padding: 16px;
+        }
+
+        .info-text {
+            padding: 12px;
+            font-size: 14px;
+            text-align: right;
+            line-height: 1.4;
+            color: #555;
+        }
+
+        .content-row {
+            display: flex;
+            gap: 8px;
+            align-items: flex-end;
+            margin-bottom: 12px;
+        }
+
+        .column {
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            gap: 4px;
+        }
+
+        .box {
+            border: 1px solid var(--border);
+            padding: 8px;
+            text-align: center;
+            color: #fff;
+            font-size: 12px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            min-height: 52px;
+            word-break: break-word;
+        }
+
+        .label-box {
+            min-height: 38px;
+            font-size: 12px;
+            border: none;
+            background: transparent;
+            color: #fff;
+            font-weight: bold;
+        }
+
+        .semester-bar {
+            background: #000;
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+            font-size: 18px;
+            font-weight: bold;
+            margin: 20px 0 10px;
+        }
+
+        /* Farbkategorien */
+        .bg-green {
+            background: var(--bg-green);
+        }
+
+        .bg-green-light {
+            background: var(--bg-green-light);
+        }
+
+        .bg-blue {
+            background: var(--bg-blue);
+        }
+
+        .bg-grey-network {
+            background: var(--bg-dark-grey);
+        }
+
+        .bg-devops {
+            background: var(--bg-devops);
+        }
+
+        .bg-web-dev {
+            background: var(--bg-web-dev);
+        }
+
+        .bg-general-prog {
+            background: var(--bg-general-prog);
+        }
+
+        .bg-further-sw {
+            background: var(--bg-further-sw);
+        }
+
+        a {
+            color: var(--link);
+            text-decoration: underline;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="container">
+
+        <div class="info-text">
+            Für ausführlichere Infos zu den einzelnen Modulen besuchen Sie<br>
+            die Seite <a href="https://www.modulbaukasten.ch/?d=4a7b261c-5fbb-ee11-9078-00224861db38"
+                target="_blank">modulbaukasten.ch</a> von<br>
+            oder klicken Sie auf die Modulnamen.
+        </div>
+
+        <div class="content-row">
+            <div class="column">
+                <a class="box bg-green" href="https://www.modulbaukasten.ch/module/640/1/de-DE" target="_blank" rel="noopener">640 ICT-Applikationslandkarte überwachen</a>
+                <a class="box bg-green" href="https://www.modulbaukasten.ch/module/642/1/de-DE" target="_blank" rel="noopener">642 ICT-Enterprise-Architektur bewirtschaften</a>
+                <div class="box label-box bg-green">Application Engineering</div>
+            </div>
+            <div class="column">
+                <a class="box bg-green" href="https://www.modulbaukasten.ch/module/621/1/de-DE" target="_blank" rel="noopener">621 ICT–Prozesse gestalten</a>
+                <a class="box bg-green" href="https://www.modulbaukasten.ch/module/622/1/de-DE" target="_blank" rel="noopener">622 ICT-Aufbau- und Ablauforganisation bestimmen</a>
+                <a class="box bg-green" href="https://www.modulbaukasten.ch/module/623/1/de-DE" target="_blank" rel="noopener">623 Unternehmensleitung in Bezug auf ICT beraten.</a>
+                <div class="box label-box bg-green">Business Engineering</div>
+            </div>
+            <div class="column">
+                <a class="box bg-blue" href="https://www.modulbaukasten.ch/module/602/1/de-DE" target="_blank" rel="noopener">602 ICT-Strategie entwickeln und umsetzen</a>
+                <a class="box bg-blue" href="https://www.modulbaukasten.ch/module/603/1/de-DE" target="_blank" rel="noopener">603 ICT-Sourcing festlegen</a>
+                <a class="box bg-blue" href="https://www.modulbaukasten.ch/module/651/1/de-DE" target="_blank" rel="noopener">651 Finanzielle Planung der ICT erstellen und überwachen</a>
+                <a class="box bg-blue" href="https://www.modulbaukasten.ch/module/652/1/de-DE" target="_blank" rel="noopener">652 Personalressourcen planen und überwachen</a>
+                <a class="box bg-blue" href="https://www.modulbaukasten.ch/module/698/1/de-DE" target="_blank" rel="noopener">698 Mitarbeitende führen und fördern</a>
+                <div class="box label-box bg-blue">Business Management</div>
+            </div>
+            <div class="column">
+                <a class="box bg-blue" href="https://www.modulbaukasten.ch/module/614/1/de-DE" target="_blank" rel="noopener">614 ICT-Projekt-Portfolio definieren und bewirtschaften</a>
+                <a class="box bg-blue" href="https://www.modulbaukasten.ch/module/615/1/de-DE" target="_blank" rel="noopener">615 Changemanagement leiten</a>
+                <div class="box label-box bg-blue">Project Management</div>
+            </div>
+            <div class="column">
+                <a class="box bg-devops" href="https://www.modulbaukasten.ch/module/607/1/de-DE" target="_blank" rel="noopener">607 Qualität von ICT-Prozessen überwachen</a>
+                <div class="box label-box bg-devops">Quality Management</div>
+            </div>
+            <div class="column">
+                <a class="box bg-devops" href="https://www.modulbaukasten.ch/module/660/1/de-DE" target="_blank" rel="noopener">660 ICT-Risikoanalyse durchführen</a>
+                <a class="box bg-devops" href="https://www.modulbaukasten.ch/module/662/1/de-DE" target="_blank" rel="noopener">662 ICT–Sicherheit überwachen</a>
+                <div class="box label-box bg-devops">Security/Risk Management</div>
+            </div>
+            <div class="column">
+                <a class="box bg-web-dev" href="https://www.modulbaukasten.ch/module/663/1/de-DE" target="_blank" rel="noopener">663 ICT–Prozesse überwachen</a>
+                <a class="box bg-web-dev" href="https://www.modulbaukasten.ch/module/664/1/de-DE" target="_blank" rel="noopener">664 ICT-Dienstleistungen beschaffen und überwachen</a>
+                <div class="box label-box bg-web-dev">Service Management</div>
+            </div>
+        </div>
+
+    </div>
+
+</body>
+
+
+</html>

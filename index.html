@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SwissDiplomaHub</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: #f4f4f4;
+            margin: 0;
+            padding: 0;
+        }
+        h1 {
+            text-align: center;
+            margin-top: 16px;
+            font-size: 1.7em;
+            color: #333;
+        }
+        h2 {
+            text-align: center;
+            margin: 10px 0 6px 0;
+            font-size: 1.1em;
+            color: #555;
+        }
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 12px;
+            margin: 10px auto;
+            max-width: 1000px;
+        }
+        .card {
+            background: #fff;
+            border-radius: 6px;
+            box-shadow: 0 1px 4px rgba(0,0,0,0.07);
+            padding: 10px 14px;
+            min-width: 160px;
+            max-width: 180px;
+            text-align: center;
+            font-size: 0.97em;
+            transition: box-shadow 0.2s;
+            cursor: pointer;
+        }
+        .card:hover {
+            box-shadow: 0 2px 8px rgba(0,0,0,0.13);
+        }
+        .card-title {
+            font-size: 1em;
+            margin-bottom: 7px;
+            color: #0072c6;
+        }
+        .card-link {
+            text-decoration: none;
+            color: #333;
+        }
+    </style>
+</head>
+<body>
+    <h1>SwissDiplomaHub</h1>
+    <div class="container-group">
+        <h2>ED</h2>
+        <div class="container" id="edCards"></div>
+        <h2>FA</h2>
+        <div class="container" id="faCards"></div>
+        <h2>EFZ</h2>
+        <div class="container" id="efzCards"></div>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
