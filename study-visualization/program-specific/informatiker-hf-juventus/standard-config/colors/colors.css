@@ -1,0 +1,18 @@
+// Colors for Informatiker HF Juventus
+// Modern, starkes Design (Rot/Schwarz/Weiss Akzente oft bei Juventus, aber hier Kategorie-basiert)
+
+:root {
+  --color-math: #b3e5fc; /* Light Blue */
+  --color-management: #ffe0b2; /* Orange Light */
+  --color-hardware: #cfd8dc; /* Blue Grey */
+  --color-systems: #90caf9; /* Blue */
+  --color-data: #80cbc4; /* Teal */
+  --color-software: #c5e1a5; /* Light Green */
+  --color-engineering: #fff9c4; /* Yellow Light */
+  --color-language: #e1bee7; /* Purple Light */
+  --color-security: #ef9a9a; /* Red Light */
+  --color-web: #a5d6a7; /* Green */
+  --color-mobile: #ce93d8; /* Purple */
+  --color-business: #bcaaa4; /* Brown Light */
+  --color-diploma: #81d4fa; /* Cyan */
+}

@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="de">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title id="page-title">Informatiker HF WISS</title>
+
+    <!-- ==== CORE CSS ==== -->
+    <link rel="stylesheet" href="study-visualization/standard/css/core/variables.css">
+    <link rel="stylesheet" href="study-visualization/standard/css/core/layout.css">
+    <link rel="stylesheet" href="study-visualization/standard/css/core/typography.css">
+
+    <!-- ==== CORE COMPONENTS CSS ==== -->
+    <link rel="stylesheet" href="study-visualization/standard/css/core/hub-button.css">
+    <link rel="stylesheet" href="study-visualization/standard/css/core/module.css">
+    <link rel="stylesheet" href="study-visualization/standard/css/core/legend.css">
+
+    <!-- ==== OPTIONAL FEATURES CSS ==== -->
+    <link rel="stylesheet" href="study-visualization/standard/css/optional/study-links.css">
+    <link rel="stylesheet" href="study-visualization/standard/css/optional/tooltip.css">
+    <link rel="stylesheet" href="study-visualization/standard/css/optional/kp-counter.css">
+    <link rel="stylesheet" href="study-visualization/standard/css/optional/module-lists.css">
+    <link rel="stylesheet" href="study-visualization/standard/css/optional/indicators.css">
+    <link rel="stylesheet" href="study-visualization/standard/css/optional/major-minor-selector.css">
+    <link rel="stylesheet" href="study-visualization/standard/css/optional/color-manager.css">
+    <link rel="stylesheet" href="study-visualization/standard/css/optional/wahlmodule.css">
+
+    <!-- ==== PROGRAM-SPECIFIC CSS (loaded dynamically) ==== -->
+    <link rel="stylesheet" id="program-colors-css" href="">
+    <link rel="stylesheet" id="program-classes-css" href="">
+    <link rel="stylesheet" id="program-layout-css" href="">
+</head>
+
+<body data-studiengang="informatiker-hf-wiss">
+    <!-- Zurück zum Hub Button -->
+    <div class="hub-button-container">
+        <a href="index.html" class="hub-button">← Zurück zum Hub</a>
+    </div>
+
+    <h1 id="studienplan-title">Informatiker HF WISS</h1>
+    <h2 id="studienplan-subtitle">Diplomstudium</h2>
+
+    <!-- Major/Minor Selector (nur für major-minor Studiengänge) -->
+    <div id="major-minor-selector" class="major-minor-selector" style="display: none;">
+        <!-- JavaScript wird hier den Selector einfügen -->
+    </div>
+
+    <div class="container">
+        <div class="studienplan" id="studienplan">
+            <!-- Hier werden die Semester und Module gerendert -->
+            <p>Lade Studienplan...</p>
+        </div>
+
+        <!-- Farben-Legende -->
+        <div class="farben-legende" id="legende">
+            <h3>Legende</h3>
+            <!-- Hier wird die Legende gerendert -->
+        </div>
+    </div>
+
+    <!-- Tooltip-Container -->
+    <div id="tooltip" class="tooltip-container" style="display: none;"></div>
+
+    <!-- Base JavaScript -->
+    <script src="study-visualization/standard/js/studienplan-base-loader.js"></script>
+
+    <script>
+        // Use the hardcoded studiengang or from URL
+        // We set data-studiengang="informatiker-hf-wiss" on body
+        const studiengang = document.body.getAttribute('data-studiengang');
+
+        // Load Program Specific CSS
+        const programColorsCSS = document.getElementById('program-colors-css');
+        const programClassesCSS = document.getElementById('program-classes-css');
+        // We don't have a specific layout.css per program yet, leave empty or create one?
+        // Let's modify the template to use the standard core layout if program specific is missing.
+        // Actually the href needs to point to SOMETHING valid or be empty.
+
+        if (programColorsCSS) programColorsCSS.href = `study-visualization/program-specific/${studiengang}/standard-config/colors/colors.css`;
+        if (programClassesCSS) programClassesCSS.href = `study-visualization/program-specific/${studiengang}/standard-config/colors/classes.css`;
+
+        // Wait for base modules, then load config
+        // In studienplan-base-loader.js, we don't return a promise exposed to window except baseModulesReady
+        // But baseModulesReady is an IIFE promise.
+        // We can wait for window.subModulesReady.core ...
+
+        // Simple polling to start
+        const checkReady = setInterval(() => {
+            if (window.loadStudiengangConfig) {
+                clearInterval(checkReady);
+                window.loadStudiengangConfig(studiengang);
+            }
+        }, 100);
+
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,12 @@
+.hub-button {
+  display: inline-block;
+  padding: 8px 16px;
+  background-color: #0563c1;
+  color: white;
+  text-decoration: none;
+  border-radius: 4px;
+  margin: 20px;
+}
+.hub-button:hover {
+  background-color: #044b91;
+}

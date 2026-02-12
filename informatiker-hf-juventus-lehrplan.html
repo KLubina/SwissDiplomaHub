@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="de">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title id="page-title">Informatiker HF Juventus</title>
+
+    <!-- ==== CORE CSS ==== -->
+    <link rel="stylesheet" href="study-visualization/standard/css/core/variables.css">
+    <link rel="stylesheet" href="study-visualization/standard/css/core/layout.css">
+    <link rel="stylesheet" href="study-visualization/standard/css/core/typography.css">
+
+    <!-- ==== CORE COMPONENTS CSS ==== -->
+    <link rel="stylesheet" href="study-visualization/standard/css/core/hub-button.css">
+    <link rel="stylesheet" href="study-visualization/standard/css/core/module.css">
+    <link rel="stylesheet" href="study-visualization/standard/css/core/legend.css">
+
+    <!-- ==== OPTIONAL FEATURES CSS ==== -->
+    <link rel="stylesheet" href="study-visualization/standard/css/optional/kp-counter.css">
+
+    <!-- ==== PROGRAM-SPECIFIC CSS (loaded dynamically) ==== -->
+    <link rel="stylesheet" id="program-colors-css" href="">
+    <link rel="stylesheet" id="program-classes-css" href="">
+</head>
+
+<body data-studiengang="informatiker-hf-juventus">
+    <!-- Zurück zum Hub Button -->
+    <div class="hub-button-container">
+        <a href="index.html" class="hub-button">← Zurück zum Hub</a>
+    </div>
+
+    <h1 id="studienplan-title">Informatiker HF Juventus</h1>
+    <h2 id="studienplan-subtitle">Applikationsentwicklung</h2>
+
+    <div class="container">
+        <div class="studienplan" id="studienplan">
+            <!-- Hier werden die Semester und Module gerendert -->
+            <p>Lade Studienplan...</p>
+        </div>
+
+        <!-- Farben-Legende -->
+        <div class="farben-legende" id="legende">
+            <h3>Legende</h3>
+            <!-- Hier wird die Legende gerendert -->
+        </div>
+    </div>
+
+    <!-- Base JavaScript -->
+    <script src="study-visualization/standard/js/studienplan-base-loader.js"></script>
+
+    <script>
+        const studiengang = document.body.getAttribute('data-studiengang');
+
+        // Load Program Specific CSS
+        const programColorsCSS = document.getElementById('program-colors-css');
+        const programClassesCSS = document.getElementById('program-classes-css');
+
+        if (programColorsCSS) programColorsCSS.href = `study-visualization/program-specific/${studiengang}/standard-config/colors/colors.css`;
+        if (programClassesCSS) programClassesCSS.href = `study-visualization/program-specific/${studiengang}/standard-config/colors/classes.css`;
+
+        const checkReady = setInterval(() => {
+            if (window.loadStudiengangConfig) {
+                clearInterval(checkReady);
+                window.loadStudiengangConfig(studiengang);
+            }
+        }, 100);
+    </script>
+</body>
+
+</html>

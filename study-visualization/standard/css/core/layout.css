@@ -1,0 +1,53 @@
+.container {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  gap: 20px;
+  padding: 20px;
+}
+.studienplan {
+  flex: 3;
+  display: flex;
+  flex-direction: column;
+}
+.farben-legende {
+  flex: 1;
+  min-width: 250px;
+  background: white;
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+.jahr {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 30px;
+  background: #fff;
+  padding: 15px;
+  border-radius: 8px;
+}
+.year-title {
+  margin-top: 0;
+  font-size: 1.5rem;
+  border-bottom: 2px solid #eee;
+  padding-bottom: 10px;
+}
+.semester {
+  margin-top: 15px;
+}
+.semester-title {
+  font-size: 1.2rem;
+  color: #666;
+  margin-bottom: 10px;
+}
+.module-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  align-items: flex-start;
+}
+@media (max-width: 800px) {
+  .container {
+    flex-direction: column;
+  }
+}

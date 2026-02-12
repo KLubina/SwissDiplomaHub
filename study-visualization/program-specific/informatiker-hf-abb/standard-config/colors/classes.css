@@ -1,0 +1,44 @@
+/* Mapping Categories to Colors */
+
+.business {
+  background-color: var(--color-business) !important;
+}
+.tech {
+  background-color: var(--color-tech) !important;
+}
+.programming {
+  background-color: var(--color-programming) !important;
+}
+.math {
+  background-color: var(--color-math) !important;
+}
+.communication {
+  background-color: var(--color-communication) !important;
+}
+.data {
+  background-color: var(--color-data) !important;
+}
+.design {
+  background-color: var(--color-design) !important;
+}
+.engineering {
+  background-color: var(--color-engineering) !important;
+}
+.security {
+  background-color: var(--color-security) !important;
+}
+.praxis {
+  background-color: var(--color-praxis) !important;
+}
+.praxis-self {
+  background-color: var(--color-praxis-self) !important;
+}
+.basics {
+  background-color: var(--color-basics) !important;
+}
+.management {
+  background-color: var(--color-management) !important;
+}
+.diploma {
+  background-color: var(--color-diploma) !important;
+}

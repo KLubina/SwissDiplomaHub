@@ -1,0 +1,20 @@
+// Colors for Wirtschaftsinformatiker HF SIW
+// Mix of Business (Blue/Grey) and Modern Tech (Vibrant accents)
+
+:root {
+  --color-management: #9fa8da; /* Indigo Light */
+  --color-business: #b0bec5; /* Blue Grey */
+  --color-digital: #4dd0e1; /* Cyan */
+  --color-tech: #81c784; /* Green */
+  --color-projects: #ffb74d; /* Orange */
+  --color-engineering: #ba68c8; /* Purple */
+  --color-quality: #f06292; /* Pink */
+  --color-practice: #fff176; /* Yellow */
+  --color-law: #d7ccc8; /* Brown Light */
+  --color-math: #b39ddb; /* Deep Purple Light */
+  --color-marketing: #ff8a65; /* Deep Orange Light */
+  --color-security: #e57373; /* Red Light */
+  --color-diploma: #64b5f6; /* Blue */
+  --color-exam: #eeeeee; /* Grey */
+  --color-basis: #cfd8dc; /* Light Grey */
+}

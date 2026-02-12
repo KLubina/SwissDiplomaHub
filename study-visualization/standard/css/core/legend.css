@@ -1,0 +1,11 @@
+.legende-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 8px;
+  padding: 5px;
+  border-radius: 4px;
+  font-size: 0.9rem;
+}
+.legende-text {
+  margin-left: 10px;
+}
