@@ -13,6 +13,10 @@ const hfInformatiker = [
     title: "Informatiker HF Juventus",
     file: "informatiker-hf-juventus-lehrplan.html",
   },
+  {
+    title: "Informatiker HF TEKO",
+    file: "informatiker-hf-teko-lehrplan.html",
+  },
 ];
 
 const hfWirtschaftsinformatiker = [

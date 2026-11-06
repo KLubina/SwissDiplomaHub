@@ -1,0 +1,4 @@
+window.StudiengangGeneralConfig = {
+  title: "Informatiker HF TEKO",
+  subtitle: "Studienplan mit 16 Wochenlektionen pro Semester",
+};
