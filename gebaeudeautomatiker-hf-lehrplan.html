@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="de">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title id="page-title">Gebäudeautomatiker HF</title>
+
+    <link rel="stylesheet" href="study-visualization/standard/css/core/variables.css">
+    <link rel="stylesheet" href="study-visualization/standard/css/core/layout.css">
+    <link rel="stylesheet" href="study-visualization/standard/css/core/typography.css">
+    <link rel="stylesheet" href="study-visualization/standard/css/core/hub-button.css">
+    <link rel="stylesheet" href="study-visualization/standard/css/core/module.css">
+    <link rel="stylesheet" href="study-visualization/standard/css/core/legend.css">
+    <link rel="stylesheet" href="study-visualization/standard/css/optional/kp-counter.css">
+    <link rel="stylesheet" id="program-colors-css" href="">
+    <link rel="stylesheet" id="program-classes-css" href="">
+    <style>
+        .bildungsangebot-link {
+            display: block;
+            max-width: 760px;
+            margin: 0 auto 10px;
+            padding: 0 20px;
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body data-studiengang="gebaeudeautomatiker-hf">
+    <div class="hub-button-container">
+        <a href="index.html" class="hub-button">← Zurück zum Hub</a>
+    </div>
+
+    <h1 id="studienplan-title">Gebäudeautomatiker HF</h1>
+    <h2 id="studienplan-subtitle">Studienplan mit 16 Wochenlektionen pro Semester</h2>
+    <p class="bildungsangebot-link">
+        <a href="https://teko.ch/technik/hoehere-fachschule/gebaeudeautomation/3382116?mtm_campaign=1-(s-CH-de)-Bildungsangebote-Prio-1&amp;mtm_kwd=hf%20geb%C3%A4udeautomation&amp;gad_source=1&amp;gad_campaignid=11490074124&amp;gclid=CjwKCAiAkrbXBhB2EiwA2y1E3iQW4ixuaodGXVQYfYrCqoo7HdapmnsmNrGX48uDz5IW2BA7-XBMdBoCwCoQAvD_BwE#open-accordions=description%2Bcurriculum%2Bexecutions&amp;active-accordion=description"
+            target="_blank" rel="noopener noreferrer">Zum Bildungsangebot bei TEKO</a>
+    </p>
+
+    <div class="container">
+        <div class="studienplan" id="studienplan">
+            <p>Lade Studienplan...</p>
+        </div>
+    </div>
+
+    <script src="study-visualization/standard/js/studienplan-base-loader.js"></script>
+    <script>
+        const studiengang = document.body.getAttribute('data-studiengang');
+        document.getElementById('program-colors-css').href =
+            `study-visualization/program-specific/${studiengang}/standard-config/colors/colors.css`;
+        document.getElementById('program-classes-css').href =
+            `study-visualization/program-specific/${studiengang}/standard-config/colors/classes.css`;
+
+        const checkReady = setInterval(() => {
+            if (window.loadStudiengangConfig) {
+                clearInterval(checkReady);
+                window.loadStudiengangConfig(studiengang);
+            }
+        }, 100);
+    </script>
+</body>
+
+</html>

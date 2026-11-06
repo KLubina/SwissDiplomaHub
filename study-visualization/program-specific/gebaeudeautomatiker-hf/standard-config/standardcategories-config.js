@@ -1,0 +1,16 @@
+window.StudiengangCategoriesConfig = {
+  kategorien: [
+    { name: "Management und Kommunikation", klasse: "management" },
+    { name: "Wirtschaft und Qualität", klasse: "wirtschaft" },
+    { name: "Sprachen", klasse: "sprachen" },
+    { name: "Informationstechnologien", klasse: "it" },
+    { name: "Mathematik und Software-Tools", klasse: "mathematik" },
+    { name: "Naturwissenschaften", klasse: "naturwissenschaften" },
+    { name: "Projekte und Diplomarbeit", klasse: "praxis" },
+    { name: "Programmierung", klasse: "programmierung" },
+    { name: "Elektrotechnik", klasse: "elektrotechnik" },
+    { name: "Gebäudeautomation", klasse: "gebaeudeautomation" },
+    { name: "Sicherheit und Nachhaltigkeit", klasse: "sicherheit" },
+    { name: "Recht und Normen", klasse: "recht" },
+  ],
+};

@@ -2,7 +2,7 @@
 // Gruppierte Hubs
 const ed = [{ title: "ICT Manager ED", file: "ict-manager-ed-lehrplan.html" }];
 
-const hf = [
+const hfInformatiker = [
   { title: "Informatiker HF WISS", file: "informatiker-hf-wiss-lehrplan.html" },
   {
     title: "Informatiker HF ABB Technikerschule",
@@ -13,6 +13,9 @@ const hf = [
     title: "Informatiker HF Juventus",
     file: "informatiker-hf-juventus-lehrplan.html",
   },
+];
+
+const hfWirtschaftsinformatiker = [
   {
     title: "Wirtschaftsinformatiker HF SIW",
     file: "wirtschaftsinformatiker-hf-siw-lehrplan.html",
@@ -20,6 +23,17 @@ const hf = [
   {
     title: "Wirtschaftsinformatiker HF WISS",
     file: "wirtschaftsinformatiker-hf-wiss-lehrplan.html",
+  },
+];
+
+const hfWeitere = [
+  {
+    title: "Fachpersonen Operationstechnik HF",
+    file: "fachpersonen-operationstechnik-hf-lehrplan.html",
+  },
+  {
+    title: "Gebäudeautomatiker HF",
+    file: "gebaeudeautomatiker-hf-lehrplan.html",
   },
 ];
 
@@ -78,6 +92,8 @@ function renderCards(hubs, containerId) {
 }
 
 renderCards(ed, "edCards");
-renderCards(hf, "hfCards");
+renderCards(hfInformatiker, "hfInformatikerCards");
+renderCards(hfWirtschaftsinformatiker, "hfWirtschaftsinformatikerCards");
+renderCards(hfWeitere, "hfWeitereCards");
 renderCards(fa, "faCards");
 renderCards(efz, "efzCards");

@@ -44,7 +44,7 @@ window.StudienplanModule = {
     return `
             <div class="modul ${category}" data-ects="${sizeValue}" style="${style}">
                 <div class="modul-titel">${name}</div>
-                <div class="modul-kp">${sizeValue} L</div>
+                <div class="modul-kp">${module.einheiten || `${sizeValue} L`}</div>
             </div>
         `;
   },
