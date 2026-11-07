@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="de">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ICT-Application Development Specialist EFA</title>
+    <style>
+        :root {
+            --max-width: 1100px;
+            --text: #333;
+            --link: #0563c1;
+            --border: #777;
+            --bg-dark-grey: #595959;
+            /* Netzwerk */
+            --bg-devops: #6b8e23;
+            /* DevOps als eigene Kategorie */
+            --bg-green: #00b050;
+            /* Software-Entwicklung */
+            --bg-green-light: #92d050;
+            /* Datenbanken */
+            --bg-blue: #4472c4;
+            /* IT-Projektmanagement */
+            --bg-web-dev: #00b050;
+            --bg-general-prog: #92d050;
+            --bg-further-sw: #548235;
+        }
+
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            color: var(--text);
+            background: #fff;
+            display: flex;
+            justify-content: center;
+        }
+
+        .container {
+            width: 100%;
+            max-width: var(--max-width);
+            padding: 16px;
+        }
+
+        .info-text {
+            padding: 12px;
+            font-size: 14px;
+            text-align: right;
+            line-height: 1.4;
+            color: #555;
+        }
+
+        .content-row {
+            display: flex;
+            gap: 8px;
+            align-items: flex-end;
+            margin-bottom: 12px;
+        }
+
+        .column {
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            gap: 4px;
+        }
+
+        .box {
+            border: 1px solid var(--border);
+            padding: 8px;
+            text-align: center;
+            color: #fff;
+            font-size: 12px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            min-height: 52px;
+            word-break: break-word;
+        }
+
+        .label-box {
+            min-height: 38px;
+            font-size: 12px;
+            border: none;
+            background: transparent;
+            color: #fff;
+            font-weight: bold;
+        }
+
+        .semester-bar {
+            background: #000;
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+            font-size: 18px;
+            font-weight: bold;
+            margin: 20px 0 10px;
+        }
+
+        /* Farbkategorien */
+        .bg-green {
+            background: var(--bg-green);
+        }
+
+        .bg-green-light {
+            background: var(--bg-green-light);
+        }
+
+        .bg-blue {
+            background: var(--bg-blue);
+        }
+
+        .bg-grey-network {
+            background: var(--bg-dark-grey);
+        }
+
+        .bg-devops {
+            background: var(--bg-devops);
+        }
+
+        .bg-web-dev {
+            background: var(--bg-web-dev);
+        }
+
+        .bg-general-prog {
+            background: var(--bg-general-prog);
+        }
+
+        .bg-further-sw {
+            background: var(--bg-further-sw);
+        }
+
+        a {
+            color: var(--link);
+            text-decoration: underline;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="container">
+
+        <div class="info-text">
+            Für ausführlichere Infos zu den einzelnen Modulen besuchen Sie<br>
+            die Seite <a href="https://www.modulbaukasten.ch/?d=eb70df54-4996-ed11-aad1-000d3a83015d"
+                target="_blank">modulbaukasten.ch</a> von<br>
+            oder klicken Sie auf die Modulnamen.
+        </div>
+
+        <div class="content-row">
+            <div class="column">
+                <a class="box bg-green" href="https://www.modulbaukasten.ch/module/500/1/de-DE" target="_blank" rel="noopener">500 Softwarearchitektur entwerfen</a>
+                <a class="box bg-green" href="https://www.modulbaukasten.ch/module/501/1/de-DE" target="_blank" rel="noopener">501 Softwareentwicklung initialisieren</a>
+                <a class="box bg-green" href="https://www.modulbaukasten.ch/module/505/1/de-DE" target="_blank" rel="noopener">505 Persistenz in komplexen Applikationen entwerfen und realisieren</a>
+                <a class="box bg-green" href="https://www.modulbaukasten.ch/module/506/1/de-DE" target="_blank" rel="noopener">506 Businesslogik in komplexen Applikationen entwerfen und realisieren</a>
+                <a class="box bg-green" href="https://www.modulbaukasten.ch/module/507/1/de-DE" target="_blank" rel="noopener">507 Programmierschnittstellen entwerfen und realisieren</a>
+                <a class="box bg-green" href="https://www.modulbaukasten.ch/module/509/1/de-DE" target="_blank" rel="noopener">509 Mobile App entwerfen und realisieren</a>
+                <a class="box bg-green" href="https://www.modulbaukasten.ch/module/510/1/de-DE" target="_blank" rel="noopener">510 Benutzerschnittstelle für komplexe Applikation entwerfen</a>
+                <div class="box label-box bg-green">Application Engineering</div>
+            </div>
+            <div class="column">
+                <a class="box bg-green" href="https://www.modulbaukasten.ch/module/687/1/de-DE" target="_blank" rel="noopener">687 Systeme abgrenzen und Anforderungen definieren</a>
+                <div class="box label-box bg-green">Business Engineering</div>
+            </div>
+            <div class="column">
+                <a class="box bg-blue" href="https://www.modulbaukasten.ch/module/646/1/de-DE" target="_blank" rel="noopener">646 Innovationen und Trends beobachten und bewerten</a>
+                <div class="box label-box bg-blue">Business Management</div>
+            </div>
+            <div class="column">
+                <a class="box bg-green-light" href="https://www.modulbaukasten.ch/module/511/1/de-DE" target="_blank" rel="noopener">511 Datenmodell für komplexe Anwendungsfälle entwickeln und umsetzen</a>
+                <a class="box bg-green-light" href="https://www.modulbaukasten.ch/module/512/1/de-DE" target="_blank" rel="noopener">512 Datenpipeline konzipieren und realisieren</a>
+                <div class="box label-box bg-green-light">Data Management</div>
+            </div>
+            <div class="column">
+                <a class="box bg-blue" href="https://www.modulbaukasten.ch/module/698/1/de-DE" target="_blank" rel="noopener">698 Team führen und befähigen</a>
+                <div class="box label-box bg-blue">Project Management</div>
+            </div>
+            <div class="column">
+                <a class="box bg-devops" href="https://www.modulbaukasten.ch/module/502/1/de-DE" target="_blank" rel="noopener">502 Sicherheit im Betrieb von Applikationen sicherstellen</a>
+                <div class="box label-box bg-devops">Security/Risk Management</div>
+            </div>
+            <div class="column">
+                <a class="box bg-web-dev" href="https://www.modulbaukasten.ch/module/513/1/de-DE" target="_blank" rel="noopener">513 Dateninfrastrukturen konzipieren und bereitstellen</a>
+                <a class="box bg-web-dev" href="https://www.modulbaukasten.ch/module/695/1/de-DE" target="_blank" rel="noopener">695 Auslieferungsprozesse definieren und umsetzen</a>
+                <div class="box label-box bg-web-dev">Service Management</div>
+            </div>
+        </div>
+
+    </div>
+
+</body>
+
+
+</html>

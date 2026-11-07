@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="de">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ICT-Fachmann EFZ - Lehrplan</title>
+    <style>
+        :root {
+            --max-width: 800px;
+            --text: #fff;
+            --link: #0563c1;
+            --border: #fff;
+            --bg-dark: #3b3b3b;
+            --bg-green: #00b050;
+            --bg-blue: #4472c4;
+        }
+
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            background: #fff;
+            display: flex;
+            justify-content: center;
+        }
+
+        .container {
+            width: 100%;
+            max-width: var(--max-width);
+            padding: 16px;
+        }
+
+        .info-text {
+            padding: 12px;
+            font-size: 15px;
+            text-align: center;
+            color: #333;
+        }
+
+        .content-row {
+            display: flex;
+            gap: 4px;
+            align-items: flex-end;
+            margin-bottom: 4px;
+        }
+
+        .column {
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            gap: 2px;
+        }
+
+        .box {
+            border: 1px solid var(--border);
+            padding: 10px 5px;
+            text-align: center;
+            color: #fff;
+            font-size: 12px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            min-height: 60px;
+            word-break: break-word;
+        }
+
+        .label-box {
+            min-height: 35px;
+            font-size: 13px;
+            font-weight: normal;
+        }
+
+        .semester-bar {
+            background: #000;
+            color: #fff;
+            text-align: center;
+            padding: 8px 0;
+            font-size: 20px;
+            font-weight: bold;
+            margin: 10px 0;
+        }
+
+        .bg-green {
+            background: var(--bg-green);
+        }
+
+        .bg-blue {
+            background: var(--bg-blue);
+        }
+
+        .bg-grey-dark {
+            background: var(--bg-dark);
+        }
+
+        a {
+            color: var(--link);
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="container">
+
+        <div class="info-text">
+            Für ausführlichere Infos zu den einzelnen Modulen besuchen Sie die Seite <a
+                href="https://www.modulbaukasten.ch/?d=ICT-Fachfrau%2FFachmann-EFZ-(ab-2026)"
+                target="_blank">modulbaukasten.ch</a>
+        </div>
+
+        <div class="content-row">
+            <div class="column"></div>
+            <div class="column">
+                <div class="box bg-grey-dark">Modul 263<br>Sicherheit von ICT-Benutzerendgeräten gewährleisten</div>
+                <div class="box label-box bg-grey-dark">Netzwerktechnologie</div>
+            </div>
+            <div class="column">
+                <div class="box bg-blue">Modul 370<br>Mit verschiedenen Anspruchsgruppen in einer Fremdsprache
+                    kommunizieren (Englisch)</div>
+                <div class="box bg-blue">Modul 369<br>Konflikte im Support erkennen und deeskalieren (Englisch)</div>
+                <div class="box label-box bg-blue">Support-Anfragen</div>
+            </div>
+        </div>
+        <div class="semester-bar">3. Semester</div>
+
+        <div class="content-row">
+            <div class="column">
+                <div class="box bg-green">Modul 122<br>Abläufe mit einer Scriptsprache automatisieren</div>
+                <div class="box label-box bg-green">Programmierung</div>
+            </div>
+            <div class="column">
+                <div class="box bg-grey-dark">Modul 208<br>Störungen in Virtualisierungs- und Cloudsystemen bearbeiten
+                </div>
+                <div class="box bg-grey-dark">Modul 129<br>LAN-Komponenten in Betrieb nehmen</div>
+                <div class="box label-box bg-grey-dark">Netzwerktechnologie</div>
+            </div>
+            <div class="column">
+                <div class="box bg-blue">Modul 437<br>Supportarbeiten durchführen (Englisch)</div>
+                <div class="box label-box bg-blue">Support-Anfragen</div>
+            </div>
+        </div>
+        <div class="semester-bar">2. Semester</div>
+
+        <div class="content-row">
+            <div class="column"></div>
+            <div class="column">
+                <div class="box bg-grey-dark">Modul 126<br>Peripheriegeräte im Netzwerkbetrieb einsetzen</div>
+                <div class="box bg-grey-dark">Modul 123<br>Serverdienste in Betrieb nehmen</div>
+                <div class="box bg-grey-dark">Modul 187<br>ICT-Benutzerendgeräte und Arbeitsplatz in Betrieb nehmen
+                </div>
+                <div class="box bg-grey-dark">Modul 117<br>Informatik- und Netzinfrastruktur für ein kleines Unternehmen
+                    realisieren</div>
+                <div class="box label-box bg-grey-dark">Netzwerktechnologie</div>
+            </div>
+            <div class="column">
+                <div class="box bg-blue">Modul 334<br>Fachinformationen recherchieren und für sich selbst dokumentieren
+                    (Englisch)</div>
+                <div class="box bg-blue">Modul 214<br>Benutzerinnen und Benutzer im Umgang mit Informatikmitteln
+                    instruieren</div>
+                <div class="box bg-blue">Modul 431<br>Aufträge im eigenen Berufsumfeld selbstständig durchführen</div>
+                <div class="box label-box bg-blue">Support-Anfragen</div>
+            </div>
+        </div>
+        <div class="semester-bar">1. Semester</div>
+
+    </div>
+
+</body>
+
+</html>
