@@ -1,0 +1,4 @@
+window.StudiengangGeneralConfig = {
+  title: "Gebäudeautomatiker HF",
+  subtitle: "Studienplan mit 16 Wochenlektionen pro Semester",
+};

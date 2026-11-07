@@ -1,0 +1,19 @@
+// Colors for Informatiker HF WISS
+// Define minimal styling for categories
+
+/* Colors */
+:root {
+  --color-basis: #e0e0e0;
+  --color-tech: #b3cde0;
+  --color-management: #fbb4ae;
+  --color-programming: #ccebc5;
+  --color-business: #decbe4;
+  --color-science: #fed9a6;
+  --color-softskills: #ffffcc;
+  --color-law: #e5d8bd;
+  --color-praxis: #fddaec;
+  --color-engineering: #f2f2f2;
+  --color-design: #b3de69;
+  --color-language: #8dd3c7;
+  --color-diploma: #80b1d3;
+}

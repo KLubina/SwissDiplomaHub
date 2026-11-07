@@ -1,0 +1,19 @@
+// Colors for Wirtschaftsinformatiker HF WISS
+// Similar to Informatiker WISS but adapted for Business nuances
+
+:root {
+  --color-basis: #e0e0e0; /* Grey */
+  --color-tech: #90caf9; /* Blue Light */
+  --color-management: #fcc; /* Red Light (Soft) */
+  --color-design: #ce93d8; /* Purple Light */
+  --color-business: #ffe082; /* Amber */
+  --color-science: #fff59d; /* Yellow Light */
+  --color-softskills: #a5d6a7; /* Green Light */
+  --color-law: #bcaaa4; /* Brown Light */
+  --color-praxis: #e1bee7; /* Purple Lighter */
+  --color-engineering: #b0bec5; /* Blue Grey */
+  --color-security: #ef9a9a; /* Red Light */
+  --color-math: #80deea; /* Cyan */
+  --color-language: #80cbc4; /* Teal */
+  --color-diploma: #81d4fa; /* Light Blue */
+}

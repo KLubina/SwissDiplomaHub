@@ -1,0 +1,17 @@
+// Colors for Informatiker HF Ipso
+:root {
+  --color-marketing: #ffecb3; /* Light Amber */
+  --color-management: #c5cae9; /* Indigo */
+  --color-business: #d1c4e9; /* Deep Purple */
+  --color-math: #b2dfdb; /* Teal */
+  --color-leadership: #ffccbc; /* Deep Orange */
+  --color-language: #e1bee7; /* Purple */
+  --color-engineering: #bbdefb; /* Blue */
+  --color-quality: #f8bbd0; /* Pink */
+  --color-service: #cfd8dc; /* Blue Grey */
+  --color-systems: #b3e5fc; /* Light Blue */
+  --color-dev: #a5d6a7; /* Green */
+  --color-security: #ffcdd2; /* Red */
+  --color-diploma: #80deea; /* Cyan */
+  --color-science: #fff9c4; /* Yellow */
+}

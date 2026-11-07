@@ -1,0 +1,19 @@
+// Colors for Informatiker HF ABB
+// Based loosely on blue/technical themes often used by ABB/Tech schools
+
+:root {
+  --color-business: #90caf9; /* Light Blue */
+  --color-tech: #b0bec5; /* Blue Grey */
+  --color-programming: #ffcc80; /* Agile Orange */
+  --color-math: #ce93d8; /* Purple */
+  --color-communication: #fff59d; /* Yellow */
+  --color-data: #80cbc4; /* Teal */
+  --color-design: #f48fb1; /* Pink */
+  --color-engineering: #ffab91; /* Deep Orange */
+  --color-security: #ef9a9a; /* Red */
+  --color-praxis: #a5d6a7; /* Green */
+  --color-praxis-self: #e6ee9c; /* Lime */
+  --color-basics: #eeeeee; /* Grey */
+  --color-management: #b39ddb; /* Deep Purple */
+  --color-diploma: #81d4fa; /* Light Blue */
+}

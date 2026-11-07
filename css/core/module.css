@@ -1,0 +1,32 @@
+.modul {
+  border: 1px solid #ccc;
+  background-color: #fff;
+  padding: 5px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-size: 0.8rem;
+  border-radius: 4px;
+  overflow: hidden;
+  position: relative;
+  cursor: pointer;
+  transition: transform 0.2s;
+}
+.modul:hover {
+  transform: scale(1.05);
+  z-index: 10;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+.modul-titel {
+  font-weight: bold;
+  margin-bottom: 3px;
+  max-height: 80%;
+  overflow: hidden;
+}
+.modul-kp {
+  font-size: 0.7rem;
+  color: #555;
+}
