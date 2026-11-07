@@ -1,6 +1,11 @@
 // SwissDiplomaHub - Card Navigation
 // Gruppierte Hubs
-const ed = [{ title: "ICT Manager ED", file: "ict-manager-ed-lehrplan.html" }];
+const ed = [
+  {
+    title: "ICT Manager ED",
+    file: "isolated-html/ict-manager-ed-lehrplan.html",
+  },
+];
 
 const hfInformatiker = [
   { title: "Informatiker HF WISS", file: "informatiker-hf-wiss-lehrplan.html" },
@@ -44,44 +49,47 @@ const hfWeitere = [
 const fa = [
   {
     title: "Digital Collaboration Specialist FA",
-    file: "digital-collaboration-specialist-fa-lehrplan.html",
+    file: "isolated-html/digital-collaboration-specialist-fa-lehrplan.html",
   },
   {
     title: "ICT Application Development Specialist FA Backend",
-    file: "ict-application-development-specialist-fa-backend-lehrplan.html",
+    file: "isolated-html/ict-application-development-specialist-fa-backend-lehrplan.html",
   },
   {
     title: "ICT Application Development Specialist FA Data",
-    file: "ict-application-development-specialist-fa-data-lehrplan.html",
+    file: "isolated-html/ict-application-development-specialist-fa-data-lehrplan.html",
   },
   {
     title: "ICT Application Development Specialist FA Frontend",
-    file: "ict-application-development-specialist-fa-frontend-lehrplan.html",
+    file: "isolated-html/ict-application-development-specialist-fa-frontend-lehrplan.html",
   },
   {
     title: "ICT Application Development Specialist FA Mobile",
-    file: "ict-application-development-specialist-fa-mobile-lehrplan.html",
+    file: "isolated-html/ict-application-development-specialist-fa-mobile-lehrplan.html",
   },
   {
     title: "ICT Platform Development Specialist FA",
-    file: "ict-platform-development-specialist-fa-lehrplan.html",
+    file: "isolated-html/ict-platform-development-specialist-fa-lehrplan.html",
   },
   {
     title: "Wirtschaftsinformatiker FA",
-    file: "wirtschaftsinformatiker-fa-lehrplan.html",
+    file: "isolated-html/wirtschaftsinformatiker-fa-lehrplan.html",
   },
 ];
 
 const efz = [
   {
     title: "Informatiker EFZ Applikationsentwicklung",
-    file: "informatiker-efz-appli-lehrplan.html",
+    file: "isolated-html/informatiker-efz-appli-lehrplan.html",
   },
   {
     title: "Informatiker EFZ Plattformentwicklung",
-    file: "informatiker-efz-platt-lehrplan.html",
+    file: "isolated-html/informatiker-efz-platt-lehrplan.html",
   },
-  { title: "ICT Fachperson EFZ", file: "ict-fachperson-efz-lehrplan.html" },
+  {
+    title: "ICT Fachperson EFZ",
+    file: "isolated-html/ict-fachperson-efz-lehrplan.html",
+  },
 ];
 
 function renderCards(hubs, containerId) {

@@ -34,9 +34,9 @@
 </head>
 
 <body data-studiengang="informatiker-hf-ipso">
-    <!-- Zurück zum Hub Button -->
+    <!-- ZurÃƒÂ¼ck zum Hub Button -->
     <div class="hub-button-container">
-        <a href="index.html" class="hub-button">← Zurück zum Hub</a>
+        <a href="index.html" class="hub-button">Ã¢â€ Â ZurÃƒÂ¼ck zum Hub</a>
     </div>
 
     <h1 id="studienplan-title">Informatiker HF Ipso</h1>
@@ -60,25 +60,7 @@
     </div>
 
     <!-- Base JavaScript -->
-    <script src="study-visualization/standard/js/studienplan-base-loader.js"></script>
-
-    <script>
-        const studiengang = document.body.getAttribute('data-studiengang');
-
-        // Load Program Specific CSS
-        const programColorsCSS = document.getElementById('program-colors-css');
-        const programClassesCSS = document.getElementById('program-classes-css');
-
-        if (programColorsCSS) programColorsCSS.href = `css/program-specific/${studiengang}/colors.css`;
-        if (programClassesCSS) programClassesCSS.href = `css/program-specific/${studiengang}/classes.css`;
-
-        const checkReady = setInterval(() => {
-            if (window.loadStudiengangConfig) {
-                clearInterval(checkReady);
-                window.loadStudiengangConfig(studiengang);
-            }
-        }, 100);
-    </script>
+    <script src="js/app.js"></script>
 </body>
 
 </html>

@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title id="page-title">Gebäudeautomatiker HF</title>
+    <title id="page-title">GebÃƒÂ¤udeautomatiker HF</title>
 
     <link rel="stylesheet" href="css/core/variables.css">
     <link rel="stylesheet" href="css/core/layout.css">
@@ -28,10 +28,10 @@
 
 <body data-studiengang="gebaeudeautomatiker-hf">
     <div class="hub-button-container">
-        <a href="index.html" class="hub-button">← Zurück zum Hub</a>
+        <a href="index.html" class="hub-button">Ã¢â€ Â ZurÃƒÂ¼ck zum Hub</a>
     </div>
 
-    <h1 id="studienplan-title">Gebäudeautomatiker HF</h1>
+    <h1 id="studienplan-title">GebÃƒÂ¤udeautomatiker HF</h1>
     <h2 id="studienplan-subtitle">Studienplan mit 16 Wochenlektionen pro Semester</h2>
     <p class="bildungsangebot-link">
         <a href="https://teko.ch/technik/hoehere-fachschule/gebaeudeautomation/3382116?mtm_campaign=1-(s-CH-de)-Bildungsangebote-Prio-1&amp;mtm_kwd=hf%20geb%C3%A4udeautomation&amp;gad_source=1&amp;gad_campaignid=11490074124&amp;gclid=CjwKCAiAkrbXBhB2EiwA2y1E3iQW4ixuaodGXVQYfYrCqoo7HdapmnsmNrGX48uDz5IW2BA7-XBMdBoCwCoQAvD_BwE#open-accordions=description%2Bcurriculum%2Bexecutions&amp;active-accordion=description"
@@ -44,21 +44,7 @@
         </div>
     </div>
 
-    <script src="study-visualization/standard/js/studienplan-base-loader.js"></script>
-    <script>
-        const studiengang = document.body.getAttribute('data-studiengang');
-        document.getElementById('program-colors-css').href =
-            `css/program-specific/${studiengang}/colors.css`;
-        document.getElementById('program-classes-css').href =
-            `css/program-specific/${studiengang}/classes.css`;
-
-        const checkReady = setInterval(() => {
-            if (window.loadStudiengangConfig) {
-                clearInterval(checkReady);
-                window.loadStudiengangConfig(studiengang);
-            }
-        }, 100);
-    </script>
+    <script src="js/app.js"></script>
 </body>
 
 </html>

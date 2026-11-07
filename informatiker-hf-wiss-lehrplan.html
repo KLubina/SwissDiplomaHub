@@ -42,9 +42,9 @@
 </head>
 
 <body data-studiengang="informatiker-hf-wiss">
-    <!-- Zurück zum Hub Button -->
+    <!-- ZurÃƒÂ¼ck zum Hub Button -->
     <div class="hub-button-container">
-        <a href="index.html" class="hub-button">← Zurück zum Hub</a>
+        <a href="index.html" class="hub-button">Ã¢â€ Â ZurÃƒÂ¼ck zum Hub</a>
     </div>
 
     <h1 id="studienplan-title">Informatiker HF WISS</h1>
@@ -54,9 +54,9 @@
             target="_blank" rel="noopener noreferrer">Zum Bildungsangebot bei WISS</a>
     </p>
 
-    <!-- Major/Minor Selector (nur für major-minor Studiengänge) -->
+    <!-- Major/Minor Selector (nur fÃƒÂ¼r major-minor StudiengÃƒÂ¤nge) -->
     <div id="major-minor-selector" class="major-minor-selector" style="display: none;">
-        <!-- JavaScript wird hier den Selector einfügen -->
+        <!-- JavaScript wird hier den Selector einfÃƒÂ¼gen -->
     </div>
 
     <div class="container">
@@ -76,37 +76,7 @@
     <div id="tooltip" class="tooltip-container" style="display: none;"></div>
 
     <!-- Base JavaScript -->
-    <script src="study-visualization/standard/js/studienplan-base-loader.js"></script>
-
-    <script>
-        // Use the hardcoded studiengang or from URL
-        // We set data-studiengang="informatiker-hf-wiss" on body
-        const studiengang = document.body.getAttribute('data-studiengang');
-
-        // Load Program Specific CSS
-        const programColorsCSS = document.getElementById('program-colors-css');
-        const programClassesCSS = document.getElementById('program-classes-css');
-        // We don't have a specific layout.css per program yet, leave empty or create one?
-        // Let's modify the template to use the standard core layout if program specific is missing.
-        // Actually the href needs to point to SOMETHING valid or be empty.
-
-        if (programColorsCSS) programColorsCSS.href = `css/program-specific/${studiengang}/colors.css`;
-        if (programClassesCSS) programClassesCSS.href = `css/program-specific/${studiengang}/classes.css`;
-
-        // Wait for base modules, then load config
-        // In studienplan-base-loader.js, we don't return a promise exposed to window except baseModulesReady
-        // But baseModulesReady is an IIFE promise.
-        // We can wait for window.subModulesReady.core ...
-
-        // Simple polling to start
-        const checkReady = setInterval(() => {
-            if (window.loadStudiengangConfig) {
-                clearInterval(checkReady);
-                window.loadStudiengangConfig(studiengang);
-            }
-        }, 100);
-
-    </script>
+    <script src="js/app.js"></script>
 </body>
 
 </html>
