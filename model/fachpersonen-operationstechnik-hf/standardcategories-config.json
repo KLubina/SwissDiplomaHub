@@ -1,0 +1,48 @@
+{
+  "kategorien": [
+    {
+      "name": "Grundlagenwissen",
+      "klasse": "basis"
+    },
+    {
+      "name": "Praxisorientierte Didaktik",
+      "klasse": "didaktik"
+    },
+    {
+      "name": "Organisation",
+      "klasse": "organisation"
+    },
+    {
+      "name": "Sicherheit",
+      "klasse": "sicherheit"
+    },
+    {
+      "name": "Interprofessionelle Zusammenarbeit",
+      "klasse": "zusammenarbeit"
+    },
+    {
+      "name": "Gesundheitsförderung und Prävention",
+      "klasse": "gesundheit"
+    },
+    {
+      "name": "Rekonstruktion",
+      "klasse": "rekonstruktion"
+    },
+    {
+      "name": "Stabilität",
+      "klasse": "stabilitaet"
+    },
+    {
+      "name": "Chirurgische Fachdisziplinen",
+      "klasse": "integritaet"
+    },
+    {
+      "name": "Komplexität",
+      "klasse": "komplexitaet"
+    },
+    {
+      "name": "Qualität",
+      "klasse": "qualitaet"
+    }
+  ]
+}

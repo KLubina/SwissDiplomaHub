@@ -7,24 +7,24 @@
     <title id="page-title">Informatiker HF WISS</title>
 
     <!-- ==== CORE CSS ==== -->
-    <link rel="stylesheet" href="study-visualization/standard/css/core/variables.css">
-    <link rel="stylesheet" href="study-visualization/standard/css/core/layout.css">
-    <link rel="stylesheet" href="study-visualization/standard/css/core/typography.css">
+    <link rel="stylesheet" href="css/core/variables.css">
+    <link rel="stylesheet" href="css/core/layout.css">
+    <link rel="stylesheet" href="css/core/typography.css">
 
     <!-- ==== CORE COMPONENTS CSS ==== -->
-    <link rel="stylesheet" href="study-visualization/standard/css/core/hub-button.css">
-    <link rel="stylesheet" href="study-visualization/standard/css/core/module.css">
-    <link rel="stylesheet" href="study-visualization/standard/css/core/legend.css">
+    <link rel="stylesheet" href="css/core/hub-button.css">
+    <link rel="stylesheet" href="css/core/module.css">
+    <link rel="stylesheet" href="css/core/legend.css">
 
     <!-- ==== OPTIONAL FEATURES CSS ==== -->
-    <link rel="stylesheet" href="study-visualization/standard/css/optional/study-links.css">
-    <link rel="stylesheet" href="study-visualization/standard/css/optional/tooltip.css">
-    <link rel="stylesheet" href="study-visualization/standard/css/optional/kp-counter.css">
-    <link rel="stylesheet" href="study-visualization/standard/css/optional/module-lists.css">
-    <link rel="stylesheet" href="study-visualization/standard/css/optional/indicators.css">
-    <link rel="stylesheet" href="study-visualization/standard/css/optional/major-minor-selector.css">
-    <link rel="stylesheet" href="study-visualization/standard/css/optional/color-manager.css">
-    <link rel="stylesheet" href="study-visualization/standard/css/optional/wahlmodule.css">
+    <link rel="stylesheet" href="css/optional/study-links.css">
+    <link rel="stylesheet" href="css/optional/tooltip.css">
+    <link rel="stylesheet" href="css/optional/kp-counter.css">
+    <link rel="stylesheet" href="css/optional/module-lists.css">
+    <link rel="stylesheet" href="css/optional/indicators.css">
+    <link rel="stylesheet" href="css/optional/major-minor-selector.css">
+    <link rel="stylesheet" href="css/optional/color-manager.css">
+    <link rel="stylesheet" href="css/optional/wahlmodule.css">
 
     <!-- ==== PROGRAM-SPECIFIC CSS (loaded dynamically) ==== -->
     <link rel="stylesheet" id="program-colors-css" href="">
@@ -90,8 +90,8 @@
         // Let's modify the template to use the standard core layout if program specific is missing.
         // Actually the href needs to point to SOMETHING valid or be empty.
 
-        if (programColorsCSS) programColorsCSS.href = `study-visualization/program-specific/${studiengang}/standard-config/colors/colors.css`;
-        if (programClassesCSS) programClassesCSS.href = `study-visualization/program-specific/${studiengang}/standard-config/colors/classes.css`;
+        if (programColorsCSS) programColorsCSS.href = `css/program-specific/${studiengang}/colors.css`;
+        if (programClassesCSS) programClassesCSS.href = `css/program-specific/${studiengang}/classes.css`;
 
         // Wait for base modules, then load config
         // In studienplan-base-loader.js, we don't return a promise exposed to window except baseModulesReady

@@ -7,17 +7,17 @@
     <title id="page-title">Wirtschaftsinformatiker HF SIW</title>
 
     <!-- ==== CORE CSS ==== -->
-    <link rel="stylesheet" href="study-visualization/standard/css/core/variables.css">
-    <link rel="stylesheet" href="study-visualization/standard/css/core/layout.css">
-    <link rel="stylesheet" href="study-visualization/standard/css/core/typography.css">
+    <link rel="stylesheet" href="css/core/variables.css">
+    <link rel="stylesheet" href="css/core/layout.css">
+    <link rel="stylesheet" href="css/core/typography.css">
 
     <!-- ==== CORE COMPONENTS CSS ==== -->
-    <link rel="stylesheet" href="study-visualization/standard/css/core/hub-button.css">
-    <link rel="stylesheet" href="study-visualization/standard/css/core/module.css">
-    <link rel="stylesheet" href="study-visualization/standard/css/core/legend.css">
+    <link rel="stylesheet" href="css/core/hub-button.css">
+    <link rel="stylesheet" href="css/core/module.css">
+    <link rel="stylesheet" href="css/core/legend.css">
 
     <!-- ==== OPTIONAL FEATURES CSS ==== -->
-    <link rel="stylesheet" href="study-visualization/standard/css/optional/kp-counter.css">
+    <link rel="stylesheet" href="css/optional/kp-counter.css">
 
     <!-- ==== PROGRAM-SPECIFIC CSS (loaded dynamically) ==== -->
     <link rel="stylesheet" id="program-colors-css" href="">
@@ -56,8 +56,8 @@
         const programColorsCSS = document.getElementById('program-colors-css');
         const programClassesCSS = document.getElementById('program-classes-css');
 
-        if (programColorsCSS) programColorsCSS.href = `study-visualization/program-specific/${studiengang}/standard-config/colors/colors.css`;
-        if (programClassesCSS) programClassesCSS.href = `study-visualization/program-specific/${studiengang}/standard-config/colors/classes.css`;
+        if (programColorsCSS) programColorsCSS.href = `css/program-specific/${studiengang}/colors.css`;
+        if (programClassesCSS) programClassesCSS.href = `css/program-specific/${studiengang}/classes.css`;
 
         const checkReady = setInterval(() => {
             if (window.loadStudiengangConfig) {

@@ -6,13 +6,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title id="page-title">Gebäudeautomatiker HF</title>
 
-    <link rel="stylesheet" href="study-visualization/standard/css/core/variables.css">
-    <link rel="stylesheet" href="study-visualization/standard/css/core/layout.css">
-    <link rel="stylesheet" href="study-visualization/standard/css/core/typography.css">
-    <link rel="stylesheet" href="study-visualization/standard/css/core/hub-button.css">
-    <link rel="stylesheet" href="study-visualization/standard/css/core/module.css">
-    <link rel="stylesheet" href="study-visualization/standard/css/core/legend.css">
-    <link rel="stylesheet" href="study-visualization/standard/css/optional/kp-counter.css">
+    <link rel="stylesheet" href="css/core/variables.css">
+    <link rel="stylesheet" href="css/core/layout.css">
+    <link rel="stylesheet" href="css/core/typography.css">
+    <link rel="stylesheet" href="css/core/hub-button.css">
+    <link rel="stylesheet" href="css/core/module.css">
+    <link rel="stylesheet" href="css/core/legend.css">
+    <link rel="stylesheet" href="css/optional/kp-counter.css">
     <link rel="stylesheet" id="program-colors-css" href="">
     <link rel="stylesheet" id="program-classes-css" href="">
     <style>
@@ -48,9 +48,9 @@
     <script>
         const studiengang = document.body.getAttribute('data-studiengang');
         document.getElementById('program-colors-css').href =
-            `study-visualization/program-specific/${studiengang}/standard-config/colors/colors.css`;
+            `css/program-specific/${studiengang}/colors.css`;
         document.getElementById('program-classes-css').href =
-            `study-visualization/program-specific/${studiengang}/standard-config/colors/classes.css`;
+            `css/program-specific/${studiengang}/classes.css`;
 
         const checkReady = setInterval(() => {
             if (window.loadStudiengangConfig) {

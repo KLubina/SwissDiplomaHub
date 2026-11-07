@@ -1,0 +1,90 @@
+[
+  {
+    "name": "Block Basis: Grundlagenwissen",
+    "year": 1,
+    "semester": 1,
+    "lektionen": 5,
+    "einheiten": "5 Wochen",
+    "category": "Grundlagenwissen"
+  },
+  {
+    "name": "Einführung praxisorientierte Didaktik: Skills trainieren",
+    "year": 1,
+    "semester": 2,
+    "lektionen": 5,
+    "einheiten": "5 Wochen",
+    "category": "Praxisorientierte Didaktik"
+  },
+  {
+    "name": "Block Organisation: Operationen überblicken",
+    "year": 1,
+    "semester": 3,
+    "lektionen": 5,
+    "einheiten": "5 Wochen",
+    "category": "Organisation"
+  },
+  {
+    "name": "Block Sicherheit: Sicherheit von Patientinnen und Patienten sowie Personal gewährleisten",
+    "year": 1,
+    "semester": 4,
+    "lektionen": 5,
+    "einheiten": "5 Wochen",
+    "category": "Sicherheit"
+  },
+  {
+    "name": "Block interprofessionelle Zusammenarbeit: Zusammenarbeit gestalten",
+    "year": 1,
+    "semester": 5,
+    "lektionen": 5,
+    "einheiten": "5 Wochen",
+    "category": "Interprofessionelle Zusammenarbeit"
+  },
+  {
+    "name": "Block Gesundheitsförderung und Prävention: Gesundheitserhaltung und Risiken minimieren",
+    "year": 1,
+    "semester": 6,
+    "lektionen": 5,
+    "einheiten": "5 Wochen",
+    "category": "Gesundheitsförderung und Prävention"
+  },
+  {
+    "name": "Block Rekonstruktion: Eingriffe zur Wiederherstellung von Funktionen",
+    "year": 1,
+    "semester": 7,
+    "lektionen": 5,
+    "einheiten": "5 Wochen",
+    "category": "Rekonstruktion"
+  },
+  {
+    "name": "Block Stabilität: Stabilisierung von Frakturen",
+    "year": 2,
+    "semester": 1,
+    "lektionen": 5,
+    "einheiten": "5 Wochen",
+    "category": "Stabilität"
+  },
+  {
+    "name": "Block Integrität: Erweitertes Handeln in den chirurgischen Fachdisziplinen",
+    "year": 2,
+    "semester": 2,
+    "lektionen": 5,
+    "einheiten": "5 Wochen",
+    "category": "Chirurgische Fachdisziplinen"
+  },
+  {
+    "name": "Block Komplexität: Komplexe, anspruchsvolle Eingriffe handhaben",
+    "year": 2,
+    "semester": 3,
+    "lektionen": 5,
+    "einheiten": "5 Wochen",
+    "category": "Komplexität"
+  },
+  {
+    "name": "Block Qualität: Qualität in Notfall- und unbekannten Situationen sicherstellen",
+    "year": 3,
+    "semester": 1,
+    "lektionen": 5,
+    "einheiten": "5 Wochen",
+    "category": "Qualität"
+  }
+]
