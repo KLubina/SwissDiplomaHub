@@ -1,0 +1,282 @@
+[
+  {
+    "name": "Mathematik Grundlagen",
+    "year": 1,
+    "semester": 1,
+    "lektionen": 64,
+    "einheiten": "64 Lektionen",
+    "category": "Mathematik und Naturwissenschaften"
+  },
+  {
+    "name": "Naturwissenschaften Elektrotechnik",
+    "year": 1,
+    "semester": 1,
+    "lektionen": 32,
+    "einheiten": "32 Lektionen",
+    "category": "Elektrotechnik und Automation"
+  },
+  {
+    "name": "Naturwissenschaften Wärmelehre",
+    "year": 1,
+    "semester": 1,
+    "lektionen": 32,
+    "einheiten": "32 Lektionen",
+    "category": "Mathematik und Naturwissenschaften"
+  },
+  {
+    "name": "Naturwissenschaften Strömungslehre",
+    "year": 1,
+    "semester": 1,
+    "lektionen": 32,
+    "einheiten": "32 Lektionen",
+    "category": "Mathematik und Naturwissenschaften"
+  },
+  {
+    "name": "Prozessmanagement Unternehmensführung",
+    "year": 1,
+    "semester": 1,
+    "lektionen": 32,
+    "einheiten": "32 Lektionen",
+    "category": "Management und Kommunikation"
+  },
+  {
+    "name": "Problemlösungszyklus",
+    "year": 1,
+    "semester": 1,
+    "lektionen": 32,
+    "einheiten": "32 Lektionen",
+    "category": "Management und Kommunikation"
+  },
+  {
+    "name": "Arbeitstechnik, Selbstmanagement",
+    "year": 1,
+    "semester": 2,
+    "lektionen": 32,
+    "einheiten": "32 Lektionen",
+    "category": "Management und Kommunikation"
+  },
+  {
+    "name": "Präsentationstechnik, Berichte schreiben",
+    "year": 1,
+    "semester": 2,
+    "lektionen": 32,
+    "einheiten": "32 Lektionen",
+    "category": "Management und Kommunikation"
+  },
+  {
+    "name": "Projektmanagement",
+    "year": 1,
+    "semester": 2,
+    "lektionen": 32,
+    "einheiten": "32 Lektionen",
+    "category": "Projekte und Diplomarbeit"
+  },
+  {
+    "name": "Englisch",
+    "year": 1,
+    "semester": 2,
+    "lektionen": 64,
+    "einheiten": "64 Lektionen",
+    "category": "Sprachen"
+  },
+  {
+    "name": "Case Study I und II",
+    "year": 1,
+    "semester": 2,
+    "lektionen": 96,
+    "einheiten": "96 Lektionen",
+    "category": "Projekte und Diplomarbeit"
+  },
+  {
+    "name": "Transferaufgabe I und II",
+    "year": 1,
+    "semester": 2,
+    "lektionen": 24,
+    "einheiten": "24 Lektionen",
+    "category": "Projekte und Diplomarbeit"
+  },
+  {
+    "name": "Projektierung / Planung Gebäudetechnik",
+    "year": 2,
+    "semester": 1,
+    "lektionen": 96,
+    "einheiten": "96 Lektionen",
+    "category": "Gebäudetechnik"
+  },
+  {
+    "name": "Bauphysik / Baukonstruktion",
+    "year": 2,
+    "semester": 1,
+    "lektionen": 32,
+    "einheiten": "32 Lektionen",
+    "category": "Gebäudetechnik"
+  },
+  {
+    "name": "Haustechnik Lüftungs- und Klimatechnik",
+    "year": 2,
+    "semester": 1,
+    "lektionen": 64,
+    "einheiten": "64 Lektionen",
+    "category": "Gebäudetechnik"
+  },
+  {
+    "name": "Haustechnik Heizungsanlagen",
+    "year": 2,
+    "semester": 1,
+    "lektionen": 64,
+    "einheiten": "64 Lektionen",
+    "category": "Gebäudetechnik"
+  },
+  {
+    "name": "Haustechnik Sanitäranlagen",
+    "year": 2,
+    "semester": 2,
+    "lektionen": 64,
+    "einheiten": "64 Lektionen",
+    "category": "Gebäudetechnik"
+  },
+  {
+    "name": "Englisch",
+    "year": 2,
+    "semester": 2,
+    "lektionen": 32,
+    "einheiten": "32 Lektionen",
+    "category": "Sprachen"
+  },
+  {
+    "name": "Energienachweis und Minergie",
+    "year": 2,
+    "semester": 2,
+    "lektionen": 32,
+    "einheiten": "32 Lektionen",
+    "category": "Energie und Nachhaltigkeit"
+  },
+  {
+    "name": "Case Study III und IV",
+    "year": 2,
+    "semester": 2,
+    "lektionen": 96,
+    "einheiten": "96 Lektionen",
+    "category": "Projekte und Diplomarbeit"
+  },
+  {
+    "name": "Transferaufgabe III und IV",
+    "year": 2,
+    "semester": 2,
+    "lektionen": 24,
+    "einheiten": "24 Lektionen",
+    "category": "Projekte und Diplomarbeit"
+  },
+  {
+    "name": "Datenanalyse",
+    "year": 3,
+    "semester": 1,
+    "lektionen": 48,
+    "einheiten": "48 Lektionen",
+    "category": "Mathematik und Naturwissenschaften"
+  },
+  {
+    "name": "Elektro Mess- und Regelungstechnik",
+    "year": 3,
+    "semester": 1,
+    "lektionen": 32,
+    "einheiten": "32 Lektionen",
+    "category": "Elektrotechnik und Automation"
+  },
+  {
+    "name": "Haustechnik Kälteanlagen",
+    "year": 3,
+    "semester": 1,
+    "lektionen": 32,
+    "einheiten": "32 Lektionen",
+    "category": "Gebäudetechnik"
+  },
+  {
+    "name": "Solaranlagen Photovoltaik",
+    "year": 3,
+    "semester": 1,
+    "lektionen": 32,
+    "einheiten": "32 Lektionen",
+    "category": "Energie und Nachhaltigkeit"
+  },
+  {
+    "name": "Solaranlagen Solarthermie",
+    "year": 3,
+    "semester": 1,
+    "lektionen": 32,
+    "einheiten": "32 Lektionen",
+    "category": "Energie und Nachhaltigkeit"
+  },
+  {
+    "name": "Zukunftsprojekte und Energiesysteme",
+    "year": 3,
+    "semester": 1,
+    "lektionen": 32,
+    "einheiten": "32 Lektionen",
+    "category": "Energie und Nachhaltigkeit"
+  },
+  {
+    "name": "Wärmepumpentechnik",
+    "year": 3,
+    "semester": 1,
+    "lektionen": 32,
+    "einheiten": "32 Lektionen",
+    "category": "Gebäudetechnik"
+  },
+  {
+    "name": "Projektabwicklung und Koordination",
+    "year": 3,
+    "semester": 2,
+    "lektionen": 48,
+    "einheiten": "48 Lektionen",
+    "category": "Management und Kommunikation"
+  },
+  {
+    "name": "Haustechnik Elektroanlagen",
+    "year": 3,
+    "semester": 2,
+    "lektionen": 32,
+    "einheiten": "32 Lektionen",
+    "category": "Elektrotechnik und Automation"
+  },
+  {
+    "name": "Elektro Gebäudeautomation",
+    "year": 3,
+    "semester": 2,
+    "lektionen": 32,
+    "einheiten": "32 Lektionen",
+    "category": "Elektrotechnik und Automation"
+  },
+  {
+    "name": "Brandschutz und Schall",
+    "year": 3,
+    "semester": 2,
+    "lektionen": 16,
+    "einheiten": "16 Lektionen",
+    "category": "Energie und Nachhaltigkeit"
+  },
+  {
+    "name": "Einführung Diplomarbeit und Diplomarbeit",
+    "year": 3,
+    "semester": 2,
+    "lektionen": 64,
+    "einheiten": "64 Lektionen",
+    "category": "Projekte und Diplomarbeit"
+  },
+  {
+    "name": "Case Study V",
+    "year": 3,
+    "semester": 2,
+    "lektionen": 48,
+    "einheiten": "48 Lektionen",
+    "category": "Projekte und Diplomarbeit"
+  },
+  {
+    "name": "Transferaufgabe V",
+    "year": 3,
+    "semester": 2,
+    "lektionen": 12,
+    "einheiten": "12 Lektionen",
+    "category": "Projekte und Diplomarbeit"
+  }
+]

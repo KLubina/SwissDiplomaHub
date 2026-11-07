@@ -1,0 +1,18 @@
+.management { background-color: var(--color-management) !important; }
+.sprachen { background-color: var(--color-sprachen) !important; }
+.naturwissenschaften { background-color: var(--color-naturwissenschaften) !important; }
+.praxis { background-color: var(--color-praxis) !important; }
+.elektrotechnik { background-color: var(--color-elektrotechnik) !important; }
+.gebaeudeautomation { background-color: var(--color-gebaeudeautomation) !important; }
+.sicherheit { background-color: var(--color-sicherheit) !important; }
+
+.modul {
+  width: 250px !important;
+  min-height: 115px;
+}
+
+.modul-titel {
+  max-height: none;
+  overflow: visible;
+  overflow-wrap: anywhere;
+}

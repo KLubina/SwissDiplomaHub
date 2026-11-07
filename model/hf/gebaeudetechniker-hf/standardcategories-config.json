@@ -1,0 +1,32 @@
+{
+  "kategorien": [
+    {
+      "name": "Mathematik und Naturwissenschaften",
+      "klasse": "naturwissenschaften"
+    },
+    {
+      "name": "Management und Kommunikation",
+      "klasse": "management"
+    },
+    {
+      "name": "Projekte und Diplomarbeit",
+      "klasse": "praxis"
+    },
+    {
+      "name": "Gebäudetechnik",
+      "klasse": "gebaeudeautomation"
+    },
+    {
+      "name": "Elektrotechnik und Automation",
+      "klasse": "elektrotechnik"
+    },
+    {
+      "name": "Energie und Nachhaltigkeit",
+      "klasse": "sicherheit"
+    },
+    {
+      "name": "Sprachen",
+      "klasse": "sprachen"
+    }
+  ]
+}

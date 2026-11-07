@@ -44,6 +44,10 @@ const hfWeitere = [
     title: "Gebäudeautomatiker HF",
     file: "study-plan.html?studiengang=gebaeudeautomatiker-hf",
   },
+  {
+    title: "Dipl. Gebäudetechniker/-in HF",
+    file: "study-plan.html?studiengang=gebaeudetechniker-hf",
+  },
 ];
 
 const fa = [
