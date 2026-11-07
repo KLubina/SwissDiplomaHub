@@ -1,4 +1,14 @@
 {
   "title": "Informatiker HF ABB Technikerschule",
-  "subtitle": "Diplomstudium"
+  "subtitle": "Diplomstudium",
+  "links": [
+    {
+      "label": "Zum Bildungsangebot bei ABB Technikerschule",
+      "url": "https://www.abbts.ch/bildungsangebot/hoehere-fachschule/informatik"
+    },
+    {
+      "label": "Module im Studium",
+      "url": "https://www.abbts.ch/resources/ABB_TS_Studienfuehrer_INFORMATIK_Modulkatalog.pdf"
+    }
+  ]
 }

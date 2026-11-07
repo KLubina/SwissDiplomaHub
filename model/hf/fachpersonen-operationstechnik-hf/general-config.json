@@ -1,4 +1,10 @@
 {
   "title": "Fachpersonen Operationstechnik HF",
-  "subtitle": "Bildungsinhalte in thematischen Blocks à fünf Wochen"
+  "subtitle": "Bildungsinhalte in thematischen Blocks à fünf Wochen",
+  "links": [
+    {
+      "label": "Zum Bildungsangebot bei Careum",
+      "url": "https://careum.ch/bildungsangebot/hoehere-fachschule/operationstechnik?gad_source=1&gad_campaignid=21114199651&gclid=CjwKCAiAkrbXBhB2EiwA2y1E3swJMBIjqjomw63useiLFW9f3h0xeAKPstOILeSzIihr3Ssq7Zkg9BoCBoQQAvD_BwE"
+    }
+  ]
 }

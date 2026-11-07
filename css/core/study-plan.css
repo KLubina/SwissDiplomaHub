@@ -1,0 +1,133 @@
+body.study-plan-page.modern-study-plan {
+  min-width: 320px;
+  background: #eef2f6;
+}
+
+.modern-study-plan > .container {
+  display: block;
+  width: min(100% - 32px, 1440px);
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 28px 0 48px;
+}
+
+.modern-study-plan .study-plan-header {
+  display: flex;
+  align-items: flex-start;
+  gap: 28px;
+  margin-bottom: 24px;
+}
+
+.modern-study-plan .study-plan-header .hub-button {
+  flex: 0 0 auto;
+  margin: 4px 0 0;
+  white-space: nowrap;
+}
+
+.modern-study-plan .study-plan-heading {
+  flex: 1;
+  min-width: 0;
+}
+
+.modern-study-plan #studienplan-title {
+  color: #172b4d;
+  font-size: clamp(1.7rem, 3vw, 2.5rem);
+  line-height: 1.15;
+  margin: 0;
+}
+
+.modern-study-plan #studienplan-subtitle {
+  color: #526581;
+  font-size: 1.05rem;
+  font-weight: 500;
+  margin: 8px 0 0;
+}
+
+.modern-study-plan .bildungsangebot-link {
+  margin: 12px 0 0;
+  font-size: 0.9rem;
+}
+
+.modern-study-plan #studienplan {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.modern-study-plan .jahr {
+  margin: 0;
+  padding: 24px;
+  background: #fff;
+  border: 1px solid #dfe6ee;
+  border-radius: 14px;
+  box-shadow: 0 8px 24px rgba(32, 54, 80, 0.08);
+}
+
+.modern-study-plan .year-title {
+  color: #172b4d;
+  font-size: 1.45rem;
+  border-bottom: 1px solid #e4e9ef;
+  padding-bottom: 12px;
+}
+
+.modern-study-plan .semester {
+  margin-top: 22px;
+}
+
+.modern-study-plan .semester-title {
+  color: #526581;
+  font-size: 1rem;
+  margin: 0 0 12px;
+}
+
+.modern-study-plan .module-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(128px, 1fr));
+  gap: 10px;
+  align-items: stretch;
+}
+
+.modern-study-plan .modul {
+  width: 100% !important;
+  min-height: 104px;
+  height: clamp(104px, var(--module-size), 156px) !important;
+  padding: 12px 10px;
+  border: 0;
+  border-radius: 8px;
+  color: #172b4d;
+  box-shadow: inset 0 0 0 1px rgba(23, 43, 77, 0.08);
+}
+
+.modern-study-plan .modul-titel {
+  line-height: 1.25;
+}
+
+.modern-study-plan .modul-kp {
+  margin-top: 8px;
+  color: rgba(23, 43, 77, 0.7);
+}
+
+.modern-study-plan .farben-legende {
+  margin-top: 24px;
+  min-width: 0;
+}
+
+@media (max-width: 700px) {
+  .modern-study-plan > .container {
+    width: min(100% - 20px, 1440px);
+    padding-top: 18px;
+  }
+
+  .modern-study-plan .study-plan-header {
+    flex-direction: column;
+    gap: 14px;
+  }
+
+  .modern-study-plan .study-plan-header .hub-button {
+    margin: 0;
+  }
+
+  .modern-study-plan .jahr {
+    padding: 16px;
+  }
+}

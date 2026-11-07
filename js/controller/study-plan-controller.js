@@ -41,12 +41,17 @@ window.StudyPlanController = {
   },
 
   loadStyles(studyProgram) {
+    const isLegacy = studyProgram.startsWith("rest/");
+    document.body.classList.toggle("legacy-grid", isLegacy);
+    document.body.classList.toggle("modern-study-plan", !isLegacy);
     if (studyProgram.startsWith("rest/")) {
       const stylesheet = document.getElementById("rest-layout-css");
       if (stylesheet) stylesheet.href = "css/program-specific/rest/legacy-grid.css";
       return;
     }
 
+    const stylesheet = document.getElementById("rest-layout-css");
+    if (stylesheet) stylesheet.removeAttribute("href");
     const path = encodeURIComponent(studyProgram);
     const colors = document.getElementById("program-colors-css");
     const classes = document.getElementById("program-classes-css");

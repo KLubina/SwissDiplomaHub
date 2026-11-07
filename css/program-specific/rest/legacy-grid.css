@@ -29,6 +29,14 @@
   padding: 16px;
 }
 
+.legacy-grid .study-plan-header {
+  display: none;
+}
+
+.legacy-grid #legende {
+  display: none;
+}
+
 .legacy-grid > .container > h1,
 .legacy-grid > .container > h2 {
   display: none;

@@ -5,6 +5,7 @@
 window.StudyPlanView = {
   render(model) {
     this.renderTitle(model.generalConfig);
+    this.renderLinks(model.generalConfig);
     if (model.layout === "legacy-grid") {
       this.renderLegacyGrid(model);
       return;
@@ -36,6 +37,19 @@ window.StudyPlanView = {
     if (title && config.title) title.textContent = config.title;
     if (subtitle && config.subtitle) subtitle.textContent = config.subtitle;
     if (config.title) document.title = config.title;
+  },
+
+  renderLinks(config) {
+    const container = document.getElementById("studienplan-links");
+    if (!container) return;
+    const links = config?.links || [];
+    container.innerHTML = links
+      .map(
+        (link) =>
+          `<a href="${this.escape(link.url)}" target="_blank" rel="noopener noreferrer">${this.escape(link.label)}</a>`,
+      )
+      .join(" | ");
+    container.hidden = links.length === 0;
   },
 
   renderPlan(modules) {
@@ -117,7 +131,7 @@ window.StudyPlanView = {
     const category = module.standardcategory || "unknown";
     return `
       <div class="modul ${this.escape(category)}" data-ects="${value}"
-           style="width: ${size}px; height: ${size}px;">
+           style="--module-size: ${size}px;">
         <div class="modul-titel">${this.escape(module.name || "Unbekanntes Modul")}</div>
         <div class="modul-kp">${this.escape(module.einheiten || `${value} L`)}</div>
       </div>

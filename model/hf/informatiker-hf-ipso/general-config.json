@@ -1,4 +1,10 @@
 {
   "title": "Informatiker HF Ipso",
-  "subtitle": "Diplomstudium"
+  "subtitle": "Diplomstudium",
+  "links": [
+    {
+      "label": "Zum Bildungsangebot bei Ipso",
+      "url": "https://ipso.ch/schulen/ifa/informatik-wirtschaft/informatik-security/dipl-informatikerin-hf-applikationsentwicklung-mit-schwerpunkt-applicationsecurity?school=ifa"
+    }
+  ]
 }

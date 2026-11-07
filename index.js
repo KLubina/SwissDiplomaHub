@@ -8,41 +8,41 @@ const ed = [
 ];
 
 const hfInformatiker = [
-  { title: "Informatiker HF WISS", file: "informatiker-hf-wiss-lehrplan.html" },
+  { title: "Informatiker HF WISS", file: "study-plan.html?studiengang=informatiker-hf-wiss" },
   {
     title: "Informatiker HF ABB Technikerschule",
-    file: "informatiker-hf-abb-lehrplan.html",
+    file: "study-plan.html?studiengang=informatiker-hf-abb",
   },
-  { title: "Informatiker HF Ipso", file: "informatiker-hf-ipso-lehrplan.html" },
+  { title: "Informatiker HF Ipso", file: "study-plan.html?studiengang=informatiker-hf-ipso" },
   {
     title: "Informatiker HF Juventus",
-    file: "informatiker-hf-juventus-lehrplan.html",
+    file: "study-plan.html?studiengang=informatiker-hf-juventus",
   },
   {
     title: "Informatiker HF TEKO",
-    file: "informatiker-hf-teko-lehrplan.html",
+    file: "study-plan.html?studiengang=informatiker-hf-teko",
   },
 ];
 
 const hfWirtschaftsinformatiker = [
   {
     title: "Wirtschaftsinformatiker HF SIW",
-    file: "wirtschaftsinformatiker-hf-siw-lehrplan.html",
+    file: "study-plan.html?studiengang=wirtschaftsinformatiker-hf-siw",
   },
   {
     title: "Wirtschaftsinformatiker HF WISS",
-    file: "wirtschaftsinformatiker-hf-wiss-lehrplan.html",
+    file: "study-plan.html?studiengang=wirtschaftsinformatiker-hf-wiss",
   },
 ];
 
 const hfWeitere = [
   {
     title: "Fachpersonen Operationstechnik HF",
-    file: "fachpersonen-operationstechnik-hf-lehrplan.html",
+    file: "study-plan.html?studiengang=fachpersonen-operationstechnik-hf",
   },
   {
     title: "Gebäudeautomatiker HF",
-    file: "gebaeudeautomatiker-hf-lehrplan.html",
+    file: "study-plan.html?studiengang=gebaeudeautomatiker-hf",
   },
 ];
 

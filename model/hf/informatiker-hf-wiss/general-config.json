@@ -1,4 +1,10 @@
 {
   "title": "Informatiker HF WISS",
-  "subtitle": "Diplomstudium"
+  "subtitle": "Diplomstudium",
+  "links": [
+    {
+      "label": "Zum Bildungsangebot bei WISS",
+      "url": "https://www.wiss.ch/de-CH/Angebot/Informatik/Dipl-Informatiker-in-HF"
+    }
+  ]
 }
