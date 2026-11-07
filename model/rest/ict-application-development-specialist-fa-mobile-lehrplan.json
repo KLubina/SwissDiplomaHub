@@ -1,0 +1,129 @@
+{
+  "title": "ICT-Application Development Specialist EFA",
+  "infoUrl": "https://www.modulbaukasten.ch/?d=eb70df54-4996-ed11-aad1-000d3a83015d",
+  "layout": "legacy-grid",
+  "sections": [
+    {
+      "name": "",
+      "columns": [
+        {
+          "label": "Application Engineering",
+          "styleClass": "bg-green",
+          "modules": [
+            {
+              "name": "500 Softwarearchitektur entwerfen",
+              "url": "https://www.modulbaukasten.ch/module/500/1/de-DE",
+              "styleClass": "bg-green"
+            },
+            {
+              "name": "501 Softwareentwicklung initialisieren",
+              "url": "https://www.modulbaukasten.ch/module/501/1/de-DE",
+              "styleClass": "bg-green"
+            },
+            {
+              "name": "506 Businesslogik in komplexen Applikationen entwerfen und realisieren",
+              "url": "https://www.modulbaukasten.ch/module/506/1/de-DE",
+              "styleClass": "bg-green"
+            },
+            {
+              "name": "507 Programmierschnittstellen entwerfen und realisieren",
+              "url": "https://www.modulbaukasten.ch/module/507/1/de-DE",
+              "styleClass": "bg-green"
+            },
+            {
+              "name": "508 Entwicklung einer mobilen App spezifizieren und konzipieren",
+              "url": "https://www.modulbaukasten.ch/module/508/1/de-DE",
+              "styleClass": "bg-green"
+            },
+            {
+              "name": "509 Mobile App entwerfen und realisieren",
+              "url": "https://www.modulbaukasten.ch/module/509/1/de-DE",
+              "styleClass": "bg-green"
+            },
+            {
+              "name": "510 Benutzerschnittstelle für komplexe Applikation entwerden",
+              "url": "https://www.modulbaukasten.ch/module/510/1/de-DE",
+              "styleClass": "bg-green"
+            }
+          ]
+        },
+        {
+          "label": "Business Engineering",
+          "styleClass": "bg-green",
+          "modules": [
+            {
+              "name": "687 Systeme abgrenzen und Anforderungen definieren",
+              "url": "https://www.modulbaukasten.ch/module/687/1/de-DE",
+              "styleClass": "bg-green"
+            }
+          ]
+        },
+        {
+          "label": "Business Management",
+          "styleClass": "bg-blue",
+          "modules": [
+            {
+              "name": "646 Innovationen und Trends beobachten und bewerten",
+              "url": "https://www.modulbaukasten.ch/module/646/1/de-DE",
+              "styleClass": "bg-blue"
+            }
+          ]
+        },
+        {
+          "label": "Data Management",
+          "styleClass": "bg-green-light",
+          "modules": [
+            {
+              "name": "511 Datenmodell für komplexe Anwendungsfälle entwickeln und umsetzen",
+              "url": "https://www.modulbaukasten.ch/module/511/1/de-DE",
+              "styleClass": "bg-green-light"
+            },
+            {
+              "name": "512 Datenpipeline konzipieren und realisieren",
+              "url": "https://www.modulbaukasten.ch/module/512/1/de-DE",
+              "styleClass": "bg-green-light"
+            }
+          ]
+        },
+        {
+          "label": "Project Management",
+          "styleClass": "bg-blue",
+          "modules": [
+            {
+              "name": "698 Team führen und befähigen",
+              "url": "https://www.modulbaukasten.ch/module/698/1/de-DE",
+              "styleClass": "bg-blue"
+            }
+          ]
+        },
+        {
+          "label": "Security/Risk Management",
+          "styleClass": "bg-devops",
+          "modules": [
+            {
+              "name": "502 Sicherheit im Betrieb von Applikationen sicherstellen",
+              "url": "https://www.modulbaukasten.ch/module/502/1/de-DE",
+              "styleClass": "bg-devops"
+            }
+          ]
+        },
+        {
+          "label": "Service Management",
+          "styleClass": "bg-web-dev",
+          "modules": [
+            {
+              "name": "513 Dateninfrastrukturen konzipieren und bereitstellen",
+              "url": "https://www.modulbaukasten.ch/module/513/1/de-DE",
+              "styleClass": "bg-web-dev"
+            },
+            {
+              "name": "695 Auslieferungsprozesse definieren und umsetzen",
+              "url": "https://www.modulbaukasten.ch/module/695/1/de-DE",
+              "styleClass": "bg-web-dev"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

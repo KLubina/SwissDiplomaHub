@@ -5,6 +5,10 @@
 window.StudyPlanView = {
   render(model) {
     this.renderTitle(model.generalConfig);
+    if (model.layout === "legacy-grid") {
+      this.renderLegacyGrid(model);
+      return;
+    }
     this.renderPlan(model.modules);
     this.renderLegend(model.modules, model.categoriesConfig);
     this.updateTotal();
@@ -26,6 +30,7 @@ window.StudyPlanView = {
   },
 
   renderTitle(config) {
+    config = config || {};
     const title = document.getElementById("studienplan-title");
     const subtitle = document.getElementById("studienplan-subtitle");
     if (title && config.title) title.textContent = config.title;
@@ -48,6 +53,37 @@ window.StudyPlanView = {
       .sort((a, b) => Number(a) - Number(b))
       .map((year) => this.renderYear(year, grouped[year]))
       .join("");
+  },
+
+  renderLegacyGrid(model) {
+    const container = document.getElementById("studienplan");
+    if (!container) return;
+
+    container.innerHTML = `
+      ${model.infoUrl ? `<div class="info-text">Für ausführlichere Infos zu den einzelnen Modulen besuchen Sie die Seite <a href="${this.escape(model.infoUrl)}" target="_blank" rel="noopener noreferrer">modulbaukasten.ch</a>.</div>` : ""}
+      ${model.sections.map((section) => `
+        ${section.name ? `<div class="semester-bar">${this.escape(section.name)}</div>` : ""}
+        <div class="content-row">
+          ${section.columns.map((column) => `
+            <div class="column">
+              ${column.modules
+                .map((module) => this.renderLegacyModule(module, column.styleClass))
+                .join("")}
+              ${column.label ? `<div class="box label-box ${this.escape(column.styleClass)}">${this.escape(column.label)}</div>` : ""}
+            </div>
+          `).join("")}
+        </div>
+      `).join("")}
+    `;
+  },
+
+  renderLegacyModule(module, columnStyleClass) {
+    const content = this.escape(module.name).replace(/\s*\n\s*/g, " ");
+    const classes = `${module.styleClass || ""} ${columnStyleClass || ""}`.trim();
+    const element = module.url
+      ? `<a class="box ${this.escape(classes)}" href="${this.escape(module.url)}" target="_blank" rel="noopener noreferrer">${content}</a>`
+      : `<div class="box ${this.escape(classes)}">${content}</div>`;
+    return element;
   },
 
   renderYear(year, semesters) {

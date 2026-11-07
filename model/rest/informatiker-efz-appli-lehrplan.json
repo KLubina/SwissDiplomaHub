@@ -1,0 +1,335 @@
+{
+  "title": "Informatiker EFZ - Applikationsentwicklung",
+  "infoUrl": "https://www.modulbaukasten.ch/?d=13d8d40b-6d82-eb11-a812-0022486f6f83",
+  "layout": "legacy-grid",
+  "sections": [
+    {
+      "name": "",
+      "columns": [
+        {
+          "label": "spezialisierte Software-Entwicklung",
+          "styleClass": "bg-further-sw",
+          "modules": [
+            {
+              "name": "Modul 321 Verteilte Systeme programmieren",
+              "url": "https://www.modulbaukasten.ch/module/321/1/de-DE",
+              "styleClass": "bg-further-sw"
+            },
+            {
+              "name": "Modul 335 Mobile-Applikation realisieren",
+              "url": "https://www.modulbaukasten.ch/module/335/3/de-DE",
+              "styleClass": "bg-further-sw"
+            }
+          ]
+        },
+        {
+          "label": "",
+          "styleClass": "",
+          "modules": []
+        },
+        {
+          "label": "",
+          "styleClass": "",
+          "modules": []
+        },
+        {
+          "label": "",
+          "styleClass": "",
+          "modules": []
+        },
+        {
+          "label": "DevOps",
+          "styleClass": "bg-devops",
+          "modules": [
+            {
+              "name": "Modul 324 DevOps-Prozesse mit Tools unterstützen",
+              "url": "https://www.modulbaukasten.ch/module/324/1/de-DE",
+              "styleClass": "bg-devops"
+            }
+          ]
+        },
+        {
+          "label": "",
+          "styleClass": "",
+          "modules": []
+        },
+        {
+          "label": "",
+          "styleClass": "",
+          "modules": []
+        }
+      ]
+    },
+    {
+      "name": "4. Semester",
+      "columns": [
+        {
+          "label": "",
+          "styleClass": "",
+          "modules": []
+        },
+        {
+          "label": "Web-Entwicklung",
+          "styleClass": "bg-web-dev",
+          "modules": [
+            {
+              "name": "Modul 223 Multi-User-Applikationen objektorientiert realisieren",
+              "url": "https://www.modulbaukasten.ch/module/223/3/de-DE",
+              "styleClass": "bg-web-dev"
+            }
+          ]
+        },
+        {
+          "label": "Allgemeine Programmierung",
+          "styleClass": "bg-general-prog",
+          "modules": [
+            {
+              "name": "Modul 183 Applikationssicherheit implementieren",
+              "url": "https://www.modulbaukasten.ch/module/183/3/de-DE",
+              "styleClass": "bg-general-prog"
+            },
+            {
+              "name": "Modul 323 Funktional Programmieren",
+              "url": "https://www.modulbaukasten.ch/module/323/1/de-DE",
+              "styleClass": "bg-general-prog"
+            },
+            {
+              "name": "Modul 450 Applikationen testen",
+              "url": "https://www.modulbaukasten.ch/module/450/1/de-DE",
+              "styleClass": "bg-general-prog"
+            }
+          ]
+        },
+        {
+          "label": "",
+          "styleClass": "",
+          "modules": []
+        },
+        {
+          "label": "",
+          "styleClass": "",
+          "modules": []
+        },
+        {
+          "label": "",
+          "styleClass": "",
+          "modules": []
+        },
+        {
+          "label": "",
+          "styleClass": "",
+          "modules": []
+        }
+      ]
+    },
+    {
+      "name": "3. Semester",
+      "columns": [
+        {
+          "label": "",
+          "styleClass": "",
+          "modules": []
+        },
+        {
+          "label": "Web-Entwicklung",
+          "styleClass": "bg-web-dev",
+          "modules": [
+            {
+              "name": "Modul 295 Backend für Applikationen realisieren",
+              "url": "https://www.modulbaukasten.ch/module/295/1/de-DE",
+              "styleClass": "bg-web-dev"
+            },
+            {
+              "name": "Modul 294 Frontend einer interaktiven Webapplikation realisieren",
+              "url": "https://www.modulbaukasten.ch/module/294/1/de-DE",
+              "styleClass": "bg-web-dev"
+            },
+            {
+              "name": "Modul 322 Benutzerschnittstellen entwerfen und implementieren",
+              "url": "https://www.modulbaukasten.ch/module/322/1/de-DE",
+              "styleClass": "bg-web-dev"
+            },
+            {
+              "name": "Modul 293 Webauftritt erstellen und veröffentlichen",
+              "url": "https://www.modulbaukasten.ch/module/293/1/de-DE",
+              "styleClass": "bg-web-dev"
+            }
+          ]
+        },
+        {
+          "label": "Allgemeine Programmierung",
+          "styleClass": "bg-general-prog",
+          "modules": [
+            {
+              "name": "Modul 320 Objektorientiert programmieren",
+              "url": "https://www.modulbaukasten.ch/module/320/1/de-DE",
+              "styleClass": "bg-general-prog"
+            }
+          ]
+        },
+        {
+          "label": "Datenbank",
+          "styleClass": "bg-green-light",
+          "modules": [
+            {
+              "name": "Modul 165 NoSQL-Datenbanken einsetzen",
+              "url": "https://www.modulbaukasten.ch/module/165/1/de-DE",
+              "styleClass": "bg-green-light"
+            }
+          ]
+        },
+        {
+          "label": "DevOps",
+          "styleClass": "bg-devops",
+          "modules": [
+            {
+              "name": "Modul 347 Dienst mit Container anwenden",
+              "url": "https://www.modulbaukasten.ch/module/347/1/de-DE",
+              "styleClass": "bg-devops"
+            },
+            {
+              "name": "Modul 346 Cloud Lösungen konzipieren und realisieren",
+              "url": "https://www.modulbaukasten.ch/module/346/1/de-DE",
+              "styleClass": "bg-devops"
+            },
+            {
+              "name": "Modul 210 Public Cloud für Anwendungen nutzen",
+              "url": "https://www.modulbaukasten.ch/module/210/1/de-DE",
+              "styleClass": "bg-devops"
+            }
+          ]
+        },
+        {
+          "label": "",
+          "styleClass": "",
+          "modules": []
+        },
+        {
+          "label": "Projektmanagement",
+          "styleClass": "bg-blue",
+          "modules": [
+            {
+              "name": "Modul 426 Software mit agilen Methoden entwickeln",
+              "url": "https://www.modulbaukasten.ch/module/426/1/de-DE",
+              "styleClass": "bg-blue"
+            },
+            {
+              "name": "Modul 245 Innovative ICT-Lösungen umsetzen",
+              "url": "https://www.modulbaukasten.ch/module/245/1/de-DE",
+              "styleClass": "bg-blue"
+            },
+            {
+              "name": "Modul 241 Innovative ICT-Lösungen initialisieren",
+              "url": "https://www.modulbaukasten.ch/module/241/1/de-DE",
+              "styleClass": "bg-blue"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "2. Semester",
+      "columns": [
+        {
+          "label": "",
+          "styleClass": "",
+          "modules": []
+        },
+        {
+          "label": "",
+          "styleClass": "",
+          "modules": []
+        },
+        {
+          "label": "Allgemeine Programmierung",
+          "styleClass": "bg-general-prog",
+          "modules": [
+            {
+              "name": "Modul 114 Codierungs-, Kompressions- und Verschlüsselungsverfahren einsetzen",
+              "url": "https://www.modulbaukasten.ch/module/114/4/de-DE",
+              "styleClass": "bg-general-prog"
+            },
+            {
+              "name": "Modul 319 Applikationen entwerfen und implementieren",
+              "url": "https://www.modulbaukasten.ch/module/319/1/de-DE",
+              "styleClass": "bg-general-prog"
+            }
+          ]
+        },
+        {
+          "label": "Datenbank",
+          "styleClass": "bg-green-light",
+          "modules": [
+            {
+              "name": "Modul 106 Datenbanken abfragen, bearbeiten und warten",
+              "url": "https://www.modulbaukasten.ch/module/106/1/de-DE",
+              "styleClass": "bg-green-light"
+            },
+            {
+              "name": "Modul 164 Datenbanken erstellen und Daten einfügen",
+              "url": "https://www.modulbaukasten.ch/module/164/1/de-DE",
+              "styleClass": "bg-green-light"
+            },
+            {
+              "name": "Modul 162 Daten analysieren und modellieren",
+              "url": "https://www.modulbaukasten.ch/module/162/1/de-DE",
+              "styleClass": "bg-green-light"
+            }
+          ]
+        },
+        {
+          "label": "",
+          "styleClass": "",
+          "modules": []
+        },
+        {
+          "label": "Netzwerk-Grundlagen",
+          "styleClass": "bg-grey-network",
+          "modules": [
+            {
+              "name": "Modul 122 Abläufe mit einer Scriptsprache automatisieren",
+              "url": "https://www.modulbaukasten.ch/module/122/3/de-DE",
+              "styleClass": "bg-grey-network"
+            },
+            {
+              "name": "Modul 187 ICT-Arbeitsplatz mit Betriebssystem in Betrieb nehmen",
+              "url": "https://www.modulbaukasten.ch/module/187/1/de-DE",
+              "styleClass": "bg-grey-network"
+            },
+            {
+              "name": "Modul 117 Informatik- und Netzinfrastruktur für ein kleines Unternehmen\n                    realisieren",
+              "url": "https://www.modulbaukasten.ch/module/117/5/de-DE",
+              "styleClass": "bg-grey-network"
+            }
+          ]
+        },
+        {
+          "label": "Projektmanagement",
+          "styleClass": "bg-blue",
+          "modules": [
+            {
+              "name": "Modul 431 Aufträge im eigenen Berufsumfeld selbstständig durchführen",
+              "url": "https://www.modulbaukasten.ch/module/431/3/de-DE",
+              "styleClass": "bg-blue"
+            },
+            {
+              "name": "Modul 254 Geschäftsprozesse im eigenen Berufsfeld beschreiben",
+              "url": "https://www.modulbaukasten.ch/module/254/3/de-DE",
+              "styleClass": "bg-blue"
+            },
+            {
+              "name": "Modul 306 Kleinprojekte im eigenen Berufsfeld abwickeln",
+              "url": "https://www.modulbaukasten.ch/module/306/4/de-DE",
+              "styleClass": "bg-blue"
+            },
+            {
+              "name": "Modul 231 Datenschutz und Datensicherheit anwenden",
+              "url": "https://www.modulbaukasten.ch/module/231/1/de-DE",
+              "styleClass": "bg-blue"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

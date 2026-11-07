@@ -1,0 +1,368 @@
+{
+  "title": "Informatiker EFZ - Plattformentwicklung - Lehrplan",
+  "infoUrl": "https://www.modulbaukasten.ch/?d=1eac87d6-6d82-eb11-a812-0022486f6f83",
+  "layout": "legacy-grid",
+  "sections": [
+    {
+      "name": "",
+      "columns": [
+        {
+          "label": "",
+          "styleClass": "",
+          "modules": []
+        },
+        {
+          "label": "",
+          "styleClass": "",
+          "modules": []
+        },
+        {
+          "label": "",
+          "styleClass": "",
+          "modules": []
+        },
+        {
+          "label": "",
+          "styleClass": "",
+          "modules": []
+        },
+        {
+          "label": "IT-Operations",
+          "styleClass": "bg-grey-dark",
+          "modules": [
+            {
+              "name": "Modul 157 IT-System- Einführung planen und durchführen",
+              "url": "https://www.modulbaukasten.ch/module/157/4/de-DE",
+              "styleClass": "h-large bg-grey-dark"
+            }
+          ]
+        },
+        {
+          "label": "",
+          "styleClass": "",
+          "modules": []
+        },
+        {
+          "label": "Netzwerksicherheit",
+          "styleClass": "bg-grey-dark",
+          "modules": [
+            {
+              "name": "Modul 182 Systemsicherheit implementieren",
+              "url": "https://www.modulbaukasten.ch/module/182/3/de-DE",
+              "styleClass": "h-med bg-grey-dark"
+            }
+          ]
+        },
+        {
+          "label": "",
+          "styleClass": "",
+          "modules": []
+        }
+      ]
+    },
+    {
+      "name": "4. Semester",
+      "columns": [
+        {
+          "label": "",
+          "styleClass": "",
+          "modules": []
+        },
+        {
+          "label": "",
+          "styleClass": "",
+          "modules": []
+        },
+        {
+          "label": "DevOps",
+          "styleClass": "bg-devops",
+          "modules": [
+            {
+              "name": "Modul 210 Public Cloud für Anwendungen nutzen",
+              "url": "https://www.modulbaukasten.ch/module/210/1/de-DE",
+              "styleClass": "h-med bg-devops"
+            }
+          ]
+        },
+        {
+          "label": "Netzwerk-Grundlagen",
+          "styleClass": "bg-grey-dark",
+          "modules": [
+            {
+              "name": "Modul 145 Netzwerk betreiben und erweitern",
+              "url": "https://www.modulbaukasten.ch/module/145/3/de-DE",
+              "styleClass": "h-med bg-grey-dark"
+            }
+          ]
+        },
+        {
+          "label": "Verzeichnisdienste",
+          "styleClass": "bg-grey-dark",
+          "modules": [
+            {
+              "name": "Modul 300 Plattformübergreifende Dienste in ein Netzwerk integrieren",
+              "url": "https://www.modulbaukasten.ch/module/300/4/de-DE",
+              "styleClass": "h-large bg-grey-dark"
+            },
+            {
+              "name": "Modul 159 Directoryservices konfigurieren und in Betrieb nehmen",
+              "url": "https://www.modulbaukasten.ch/module/159/3/de-DE",
+              "styleClass": "h-large bg-grey-dark"
+            }
+          ]
+        },
+        {
+          "label": "",
+          "styleClass": "",
+          "modules": []
+        },
+        {
+          "label": "",
+          "styleClass": "",
+          "modules": []
+        },
+        {
+          "label": "",
+          "styleClass": "",
+          "modules": []
+        },
+        {
+          "label": "",
+          "styleClass": "",
+          "modules": []
+        }
+      ]
+    },
+    {
+      "name": "3. Semester",
+      "columns": [
+        {
+          "label": "",
+          "styleClass": "",
+          "modules": []
+        },
+        {
+          "label": "Datenbanken",
+          "styleClass": "bg-green-light",
+          "modules": [
+            {
+              "name": "Modul 141 Datenbanksystem in Betrieb nehmen",
+              "url": "https://www.modulbaukasten.ch/module/141/4/de-DE",
+              "styleClass": "h-med bg-green-light"
+            }
+          ]
+        },
+        {
+          "label": "DevOps",
+          "styleClass": "bg-devops",
+          "modules": [
+            {
+              "name": "Modul 346 Cloud Lösungen konzipieren und realisieren",
+              "url": "https://www.modulbaukasten.ch/module/346/1/de-DE",
+              "styleClass": "h-med bg-devops"
+            }
+          ]
+        },
+        {
+          "label": "Netzwerk-Grundlagen",
+          "styleClass": "bg-grey-dark",
+          "modules": [
+            {
+              "name": "Modul 123 Serverdienste in Betrieb nehmen",
+              "url": "https://www.modulbaukasten.ch/module/123/2/de-DE",
+              "styleClass": "h-med bg-grey-dark"
+            },
+            {
+              "name": "Modul 129 LAN- Komponenten in Betrieb nehmen",
+              "url": "https://www.modulbaukasten.ch/module/129/3/de-DE",
+              "styleClass": "h-med bg-grey-dark"
+            }
+          ]
+        },
+        {
+          "label": "",
+          "styleClass": "",
+          "modules": []
+        },
+        {
+          "label": "IT-Operations",
+          "styleClass": "bg-grey-dark",
+          "modules": [
+            {
+              "name": "Modul 188 Services betreiben, warten und überwachen",
+              "url": "https://www.modulbaukasten.ch/module/188/1/de-DE",
+              "styleClass": "h-med bg-grey-dark"
+            },
+            {
+              "name": "Modul 158 Software- Migration planen und durchführen",
+              "url": "https://www.modulbaukasten.ch/module/158/3/de-DE",
+              "styleClass": "h-large bg-grey-dark"
+            },
+            {
+              "name": "Modul 143 Backup- und Restore-Systeme implementieren",
+              "url": "https://www.modulbaukasten.ch/module/143/3/de-DE",
+              "styleClass": "h-med bg-grey-dark"
+            }
+          ]
+        },
+        {
+          "label": "Virtualisierung",
+          "styleClass": "bg-grey-dark",
+          "modules": [
+            {
+              "name": "Modul 190 Virtualisierungsplattform aufbauen und betreiben",
+              "url": "https://www.modulbaukasten.ch/module/190/1/de-DE",
+              "styleClass": "h-med bg-grey-dark"
+            },
+            {
+              "name": "Modul 169 Services mit Containern bereitstellen",
+              "url": "https://www.modulbaukasten.ch/module/169/1/de-DE",
+              "styleClass": "h-med bg-grey-dark"
+            }
+          ]
+        },
+        {
+          "label": "Netzwerksicherheit",
+          "styleClass": "bg-grey-dark",
+          "modules": [
+            {
+              "name": "Modul 184 Netzwerksicherheit implementieren",
+              "url": "https://www.modulbaukasten.ch/module/184/4/de-DE",
+              "styleClass": "h-med bg-grey-dark"
+            }
+          ]
+        },
+        {
+          "label": "Projektmanagement",
+          "styleClass": "bg-blue",
+          "modules": [
+            {
+              "name": "Modul 245 Innovative ICT-Lösungen umsetzen",
+              "url": "https://www.modulbaukasten.ch/module/245/1/de-DE",
+              "styleClass": "h-med bg-blue"
+            },
+            {
+              "name": "Modul 241 Innovative ICT-Lösungen initialisieren",
+              "url": "https://www.modulbaukasten.ch/module/241/1/de-DE",
+              "styleClass": "h-med bg-blue"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "2. Semester",
+      "columns": [
+        {
+          "label": "Programmieren",
+          "styleClass": "bg-green",
+          "modules": [
+            {
+              "name": "Modul 114 Codierungs-, Kompressions- und Verschlüsselungsverfahren einsetzen",
+              "url": "https://www.modulbaukasten.ch/module/114/4/de-DE",
+              "styleClass": "h-xl bg-green"
+            },
+            {
+              "name": "Modul 319 Applikationen entwerfen und implementieren",
+              "url": "https://www.modulbaukasten.ch/module/319/1/de-DE",
+              "styleClass": "h-xl bg-green"
+            }
+          ]
+        },
+        {
+          "label": "Datenbanken",
+          "styleClass": "bg-green-light",
+          "modules": [
+            {
+              "name": "Modul 106 Datenbanken abfragen, bearbeiten und warten",
+              "url": "https://www.modulbaukasten.ch/module/106/1/de-DE",
+              "styleClass": "h-small bg-green-light"
+            },
+            {
+              "name": "Modul 164 Datenbanken erstellen und Daten einfügen",
+              "url": "https://www.modulbaukasten.ch/module/164/1/de-DE",
+              "styleClass": "h-med bg-green-light"
+            },
+            {
+              "name": "Modul 162 Daten analysieren und modellieren",
+              "url": "https://www.modulbaukasten.ch/module/162/1/de-DE",
+              "styleClass": "h-med bg-green-light"
+            }
+          ]
+        },
+        {
+          "label": "",
+          "styleClass": "",
+          "modules": []
+        },
+        {
+          "label": "Netzwerk-Grundlagen",
+          "styleClass": "bg-grey-dark",
+          "modules": [
+            {
+              "name": "Modul 122 Abläufe mit einer Scriptsprache automatisieren",
+              "url": "https://www.modulbaukasten.ch/module/122/3/de-DE",
+              "styleClass": "h-med bg-grey-dark"
+            },
+            {
+              "name": "Modul 117 Informatik- und Netzinfrastruktur für ein kleines Unternehmen realisieren",
+              "url": "https://www.modulbaukasten.ch/module/117/4/de-DE",
+              "styleClass": "h-xl bg-grey-dark"
+            },
+            {
+              "name": "Modul 187 ICT- Arbeitsplatz mit Betriebssystem in Betrieb nehmen",
+              "url": "https://www.modulbaukasten.ch/module/187/1/de-DE",
+              "styleClass": "h-xl bg-grey-dark"
+            }
+          ]
+        },
+        {
+          "label": "",
+          "styleClass": "",
+          "modules": []
+        },
+        {
+          "label": "",
+          "styleClass": "",
+          "modules": []
+        },
+        {
+          "label": "",
+          "styleClass": "",
+          "modules": []
+        },
+        {
+          "label": "",
+          "styleClass": "",
+          "modules": []
+        },
+        {
+          "label": "Projektmanagement",
+          "styleClass": "bg-blue",
+          "modules": [
+            {
+              "name": "Modul 431 Aufträge im eigenen Berufsfeld selbstständig durchführen",
+              "url": "https://www.modulbaukasten.ch/module/431/3/de-DE",
+              "styleClass": "h-large bg-blue"
+            },
+            {
+              "name": "Modul 254 Geschäftsprozesse im eigenen Berufsfeld beschreiben",
+              "url": "https://www.modulbaukasten.ch/module/254/3/de-DE",
+              "styleClass": "h-large bg-blue"
+            },
+            {
+              "name": "Modul 306 Kleinprojekte im eigenen Berufsfeld abwickeln",
+              "url": "https://www.modulbaukasten.ch/module/306/4/de-DE",
+              "styleClass": "h-large bg-blue"
+            },
+            {
+              "name": "Modul 231 Datenschutz und Datensicherheit anwenden",
+              "url": "https://www.modulbaukasten.ch/module/231/1/de-DE",
+              "styleClass": "h-med bg-blue"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

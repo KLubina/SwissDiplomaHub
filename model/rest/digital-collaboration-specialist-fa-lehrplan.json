@@ -1,0 +1,108 @@
+{
+  "title": "Digital Collaboration Specialist EFA",
+  "infoUrl": "https://www.modulbaukasten.ch/?d=a4384818-b9c2-eb11-bacc-000d3a831264",
+  "layout": "legacy-grid",
+  "sections": [
+    {
+      "name": "",
+      "columns": [
+        {
+          "label": "Business Engineering",
+          "styleClass": "bg-green",
+          "modules": [
+            {
+              "name": "625 Digitale Kollaborationswerkzeuge verifizieren und bewerten",
+              "url": "https://www.modulbaukasten.ch/module/625/1/de-DE",
+              "styleClass": "bg-green"
+            },
+            {
+              "name": "626 Digitale Kanäle und Werkzeuge situativ auswählen",
+              "url": "https://www.modulbaukasten.ch/module/626/1/de-DE",
+              "styleClass": "bg-green"
+            },
+            {
+              "name": "631 Interaktionen benutzerzentriert gestalten",
+              "url": "https://www.modulbaukasten.ch/module/631/1/de-DE",
+              "styleClass": "bg-green"
+            }
+          ]
+        },
+        {
+          "label": "Business Management",
+          "styleClass": "bg-blue",
+          "modules": [
+            {
+              "name": "628 Digitale Kanäle bewirtschaften und optimieren",
+              "url": "https://www.modulbaukasten.ch/module/628/1/de-DE",
+              "styleClass": "bg-blue"
+            },
+            {
+              "name": "630 Interaktive Treffen planen und durchführen",
+              "url": "https://www.modulbaukasten.ch/module/630/1/de-DE",
+              "styleClass": "bg-blue"
+            },
+            {
+              "name": "633 Veränderungsprozesse initiieren und begleiten",
+              "url": "https://www.modulbaukasten.ch/module/633/1/de-DE",
+              "styleClass": "bg-blue"
+            },
+            {
+              "name": "646 Innovationen und Trends beobachten und bewerten",
+              "url": "https://www.modulbaukasten.ch/module/646/1/de-DE",
+              "styleClass": "bg-blue"
+            }
+          ]
+        },
+        {
+          "label": "Data Management",
+          "styleClass": "bg-green-light",
+          "modules": [
+            {
+              "name": "632 Daten analysieren und auswerten",
+              "url": "https://www.modulbaukasten.ch/module/632/1/de-DE",
+              "styleClass": "bg-green-light"
+            }
+          ]
+        },
+        {
+          "label": "Multimedia",
+          "styleClass": "bg-web-dev",
+          "modules": [
+            {
+              "name": "627 Content für digitale Medien produzieren",
+              "url": "https://www.modulbaukasten.ch/module/627/1/de-DE",
+              "styleClass": "bg-web-dev"
+            }
+          ]
+        },
+        {
+          "label": "Project Management",
+          "styleClass": "bg-blue",
+          "modules": [
+            {
+              "name": "690 Projekte planen, führen und überwachen",
+              "url": "https://www.modulbaukasten.ch/module/690/1/de-DE",
+              "styleClass": "bg-blue"
+            }
+          ]
+        },
+        {
+          "label": "Service Management",
+          "styleClass": "bg-web-dev",
+          "modules": [
+            {
+              "name": "629 Lernsequenzen entwickeln",
+              "url": "https://www.modulbaukasten.ch/module/629/1/de-DE",
+              "styleClass": "bg-web-dev"
+            },
+            {
+              "name": "634 Servicelandschaft für digitale Kollaboration pflegen",
+              "url": "https://www.modulbaukasten.ch/module/634/1/de-DE",
+              "styleClass": "bg-web-dev"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

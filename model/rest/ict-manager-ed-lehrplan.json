@@ -1,0 +1,139 @@
+{
+  "title": "ICT-Manager HFP",
+  "infoUrl": "https://www.modulbaukasten.ch/?d=4a7b261c-5fbb-ee11-9078-00224861db38",
+  "layout": "legacy-grid",
+  "sections": [
+    {
+      "name": "",
+      "columns": [
+        {
+          "label": "Application Engineering",
+          "styleClass": "bg-green",
+          "modules": [
+            {
+              "name": "640 ICT-Applikationslandkarte überwachen",
+              "url": "https://www.modulbaukasten.ch/module/640/1/de-DE",
+              "styleClass": "bg-green"
+            },
+            {
+              "name": "642 ICT-Enterprise-Architektur bewirtschaften",
+              "url": "https://www.modulbaukasten.ch/module/642/1/de-DE",
+              "styleClass": "bg-green"
+            }
+          ]
+        },
+        {
+          "label": "Business Engineering",
+          "styleClass": "bg-green",
+          "modules": [
+            {
+              "name": "621 ICT–Prozesse gestalten",
+              "url": "https://www.modulbaukasten.ch/module/621/1/de-DE",
+              "styleClass": "bg-green"
+            },
+            {
+              "name": "622 ICT-Aufbau- und Ablauforganisation bestimmen",
+              "url": "https://www.modulbaukasten.ch/module/622/1/de-DE",
+              "styleClass": "bg-green"
+            },
+            {
+              "name": "623 Unternehmensleitung in Bezug auf ICT beraten.",
+              "url": "https://www.modulbaukasten.ch/module/623/1/de-DE",
+              "styleClass": "bg-green"
+            }
+          ]
+        },
+        {
+          "label": "Business Management",
+          "styleClass": "bg-blue",
+          "modules": [
+            {
+              "name": "602 ICT-Strategie entwickeln und umsetzen",
+              "url": "https://www.modulbaukasten.ch/module/602/1/de-DE",
+              "styleClass": "bg-blue"
+            },
+            {
+              "name": "603 ICT-Sourcing festlegen",
+              "url": "https://www.modulbaukasten.ch/module/603/1/de-DE",
+              "styleClass": "bg-blue"
+            },
+            {
+              "name": "651 Finanzielle Planung der ICT erstellen und überwachen",
+              "url": "https://www.modulbaukasten.ch/module/651/1/de-DE",
+              "styleClass": "bg-blue"
+            },
+            {
+              "name": "652 Personalressourcen planen und überwachen",
+              "url": "https://www.modulbaukasten.ch/module/652/1/de-DE",
+              "styleClass": "bg-blue"
+            },
+            {
+              "name": "698 Mitarbeitende führen und fördern",
+              "url": "https://www.modulbaukasten.ch/module/698/1/de-DE",
+              "styleClass": "bg-blue"
+            }
+          ]
+        },
+        {
+          "label": "Project Management",
+          "styleClass": "bg-blue",
+          "modules": [
+            {
+              "name": "614 ICT-Projekt-Portfolio definieren und bewirtschaften",
+              "url": "https://www.modulbaukasten.ch/module/614/1/de-DE",
+              "styleClass": "bg-blue"
+            },
+            {
+              "name": "615 Changemanagement leiten",
+              "url": "https://www.modulbaukasten.ch/module/615/1/de-DE",
+              "styleClass": "bg-blue"
+            }
+          ]
+        },
+        {
+          "label": "Quality Management",
+          "styleClass": "bg-devops",
+          "modules": [
+            {
+              "name": "607 Qualität von ICT-Prozessen überwachen",
+              "url": "https://www.modulbaukasten.ch/module/607/1/de-DE",
+              "styleClass": "bg-devops"
+            }
+          ]
+        },
+        {
+          "label": "Security/Risk Management",
+          "styleClass": "bg-devops",
+          "modules": [
+            {
+              "name": "660 ICT-Risikoanalyse durchführen",
+              "url": "https://www.modulbaukasten.ch/module/660/1/de-DE",
+              "styleClass": "bg-devops"
+            },
+            {
+              "name": "662 ICT–Sicherheit überwachen",
+              "url": "https://www.modulbaukasten.ch/module/662/1/de-DE",
+              "styleClass": "bg-devops"
+            }
+          ]
+        },
+        {
+          "label": "Service Management",
+          "styleClass": "bg-web-dev",
+          "modules": [
+            {
+              "name": "663 ICT–Prozesse überwachen",
+              "url": "https://www.modulbaukasten.ch/module/663/1/de-DE",
+              "styleClass": "bg-web-dev"
+            },
+            {
+              "name": "664 ICT-Dienstleistungen beschaffen und überwachen",
+              "url": "https://www.modulbaukasten.ch/module/664/1/de-DE",
+              "styleClass": "bg-web-dev"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

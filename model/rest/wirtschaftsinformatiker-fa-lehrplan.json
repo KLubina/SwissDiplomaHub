@@ -1,0 +1,118 @@
+{
+  "title": "Wirtschaftsinformatiker FA",
+  "infoUrl": "https://www.modulbaukasten.ch/?d=Wirtschaftsinformatiker%2Fin-EFA-(ab-2023)",
+  "layout": "legacy-grid",
+  "sections": [
+    {
+      "name": "",
+      "columns": [
+        {
+          "label": "Business Engineering",
+          "styleClass": "bg-green",
+          "modules": [
+            {
+              "name": "644 Geschäftsprozesse modellieren",
+              "url": "https://www.modulbaukasten.ch/module/644/1/de-DE",
+              "styleClass": "bg-green"
+            },
+            {
+              "name": "645 Geschäftsprozesse analysieren und optimieren",
+              "url": "https://www.modulbaukasten.ch/module/645/1/de-DE",
+              "styleClass": "bg-green"
+            },
+            {
+              "name": "687 Systeme abgrenzen und Anforderungen definieren",
+              "url": "https://www.modulbaukasten.ch/module/687/1/de-DE",
+              "styleClass": "bg-green"
+            },
+            {
+              "name": "689 Informatiklösungen evaluieren",
+              "url": "https://www.modulbaukasten.ch/module/689/1/de-DE",
+              "styleClass": "bg-green"
+            }
+          ]
+        },
+        {
+          "label": "Business Management",
+          "styleClass": "bg-blue",
+          "modules": [
+            {
+              "name": "646 Innovationen und Trends beobachten und bewerten",
+              "url": "https://www.modulbaukasten.ch/module/646/1/de-DE",
+              "styleClass": "bg-blue"
+            },
+            {
+              "name": "647 Wirtschaftlichkeit von ICT-Vorhaben berechnen und bewerten",
+              "url": "https://www.modulbaukasten.ch/module/647/1/de-DE",
+              "styleClass": "bg-blue"
+            },
+            {
+              "name": "648 Business Analyse durchführen",
+              "url": "https://www.modulbaukasten.ch/module/648/1/de-DE",
+              "styleClass": "bg-blue"
+            },
+            {
+              "name": "688 Aufwand für ICT-Vorhaben erheben und budgetieren",
+              "url": "https://www.modulbaukasten.ch/module/688/1/de-DE",
+              "styleClass": "bg-blue"
+            }
+          ]
+        },
+        {
+          "label": "Data Management",
+          "styleClass": "bg-green-light",
+          "modules": [
+            {
+              "name": "655 Datenqualitätsmanagement konzipieren und sicherstellen",
+              "url": "https://www.modulbaukasten.ch/module/655/1/de-DE",
+              "styleClass": "bg-green-light"
+            }
+          ]
+        },
+        {
+          "label": "Project Management",
+          "styleClass": "bg-blue",
+          "modules": [
+            {
+              "name": "674 Team führen und fördern",
+              "url": "https://www.modulbaukasten.ch/module/674/1/de-DE",
+              "styleClass": "bg-blue"
+            },
+            {
+              "name": "690 Projekte planen, führen und überwachen",
+              "url": "https://www.modulbaukasten.ch/module/690/1/de-DE",
+              "styleClass": "bg-blue"
+            }
+          ]
+        },
+        {
+          "label": "Security/Risk Management",
+          "styleClass": "bg-devops",
+          "modules": [
+            {
+              "name": "656 Sicherheit und Compliance gewährleisten",
+              "url": "https://www.modulbaukasten.ch/module/656/1/de-DE",
+              "styleClass": "bg-devops"
+            }
+          ]
+        },
+        {
+          "label": "Service Management",
+          "styleClass": "bg-web-dev",
+          "modules": [
+            {
+              "name": "649 IT-Service entwickeln und vereinbaren",
+              "url": "https://www.modulbaukasten.ch/module/649/1/de-DE",
+              "styleClass": "bg-web-dev"
+            },
+            {
+              "name": "650 IT-Servicebetrieb überwachen und verbessern",
+              "url": "https://www.modulbaukasten.ch/module/650/1/de-DE",
+              "styleClass": "bg-web-dev"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,119 @@
+{
+  "title": "ICT-Platform Development Specialist FA",
+  "infoUrl": "https://www.modulbaukasten.ch/?d=91557aa1-5a28-ed11-9db2-000d3a83015d",
+  "layout": "legacy-grid",
+  "sections": [
+    {
+      "name": "",
+      "columns": [
+        {
+          "label": "Business Engineering",
+          "styleClass": "bg-green",
+          "modules": [
+            {
+              "name": "687 Systeme abgrenzen und Anforderungen definieren",
+              "url": "https://www.modulbaukasten.ch/module/687/1/de-DE",
+              "styleClass": "bg-green"
+            },
+            {
+              "name": "689 Informatiklösungen evaluieren",
+              "url": "https://www.modulbaukasten.ch/module/689/1/de-DE",
+              "styleClass": "bg-green"
+            }
+          ]
+        },
+        {
+          "label": "Business Management",
+          "styleClass": "bg-blue",
+          "modules": [
+            {
+              "name": "646 Innovationen und Trends beobachten und bewerten",
+              "url": "https://www.modulbaukasten.ch/module/646/1/de-DE",
+              "styleClass": "bg-blue"
+            }
+          ]
+        },
+        {
+          "label": "Network Management",
+          "styleClass": "bg-grey-network",
+          "modules": [
+            {
+              "name": "691 Komplexe Netzwerke konzipieren und realisieren",
+              "url": "https://www.modulbaukasten.ch/module/691/1/de-DE",
+              "styleClass": "bg-grey-network"
+            },
+            {
+              "name": "692 Komplexe Netzwerke betreiben",
+              "url": "https://www.modulbaukasten.ch/module/692/1/de-DE",
+              "styleClass": "bg-grey-network"
+            }
+          ]
+        },
+        {
+          "label": "Project Management",
+          "styleClass": "bg-blue",
+          "modules": [
+            {
+              "name": "690 Projekte planen, führen und überwachen",
+              "url": "https://www.modulbaukasten.ch/module/690/1/de-DE",
+              "styleClass": "bg-blue"
+            },
+            {
+              "name": "698 Team führen und befähigen",
+              "url": "https://www.modulbaukasten.ch/module/698/1/de-DE",
+              "styleClass": "bg-blue"
+            }
+          ]
+        },
+        {
+          "label": "Security/Risk Management",
+          "styleClass": "bg-devops",
+          "modules": [
+            {
+              "name": "696 Informationssicherheit konzipieren und gewährleisten",
+              "url": "https://www.modulbaukasten.ch/module/696/1/de-DE",
+              "styleClass": "bg-devops"
+            },
+            {
+              "name": "697 Schutzmassnahmen für eine ICT-Infrastruktur implementieren",
+              "url": "https://www.modulbaukasten.ch/module/697/1/de-DE",
+              "styleClass": "bg-devops"
+            }
+          ]
+        },
+        {
+          "label": "Service Management",
+          "styleClass": "bg-web-dev",
+          "modules": [
+            {
+              "name": "649 IT-Service entwickeln und vereinbaren",
+              "url": "https://www.modulbaukasten.ch/module/649/1/de-DE",
+              "styleClass": "bg-web-dev"
+            },
+            {
+              "name": "695 Auslieferungsprozesse definieren und umsetzen",
+              "url": "https://www.modulbaukasten.ch/module/695/1/de-DE",
+              "styleClass": "bg-web-dev"
+            }
+          ]
+        },
+        {
+          "label": "System Management",
+          "styleClass": "bg-general-prog",
+          "modules": [
+            {
+              "name": "693 Komplexe ICT-Plattformen konzipieren und realisieren",
+              "url": "https://www.modulbaukasten.ch/module/693/1/de-DE",
+              "styleClass": "bg-general-prog"
+            },
+            {
+              "name": "694 Komplexe ICT-Plattformen betreiben",
+              "url": "https://www.modulbaukasten.ch/module/694/1/de-DE",
+              "styleClass": "bg-general-prog"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

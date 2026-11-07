@@ -4,7 +4,9 @@
 
 window.StudyPlanController = {
   async start() {
-    const studyProgram = document.body.dataset.studiengang;
+    const studyProgram =
+      new URLSearchParams(window.location.search).get("studiengang") ||
+      document.body.dataset.studiengang;
     if (!studyProgram) return this.fail("Kein Studiengang angegeben.");
 
     window.StudyPlanView.renderLoading();
@@ -12,7 +14,9 @@ window.StudyPlanController = {
 
     try {
       const model = await window.StudyPlanModel.load(studyProgram);
-      model.modules = this.mapCategories(model.modules, model.categoriesConfig);
+      if (model.layout !== "legacy-grid") {
+        model.modules = this.mapCategories(model.modules, model.categoriesConfig);
+      }
       window.StudyPlanView.render(model);
     } catch (error) {
       console.error("Studienplan konnte nicht geladen werden:", error);
@@ -37,11 +41,17 @@ window.StudyPlanController = {
   },
 
   loadStyles(studyProgram) {
+    if (studyProgram.startsWith("rest/")) {
+      const stylesheet = document.getElementById("rest-layout-css");
+      if (stylesheet) stylesheet.href = "css/program-specific/rest/legacy-grid.css";
+      return;
+    }
+
     const path = encodeURIComponent(studyProgram);
     const colors = document.getElementById("program-colors-css");
     const classes = document.getElementById("program-classes-css");
-    if (colors) colors.href = `css/program-specific/${path}/colors.css`;
-    if (classes) classes.href = `css/program-specific/${path}/classes.css`;
+    if (colors) colors.href = `css/program-specific/hf/${path}/colors.css`;
+    if (classes) classes.href = `css/program-specific/hf/${path}/classes.css`;
   },
 
   simplify(category = "") {

@@ -4,7 +4,15 @@
 
 window.StudyPlanModel = {
   async load(studyProgram) {
-    const basePath = `model/${encodeURIComponent(studyProgram)}`;
+    if (studyProgram.startsWith("rest/")) {
+      const path = `model/${studyProgram}.json`;
+      return {
+        ...(await this.loadJson(path)),
+        layout: "legacy-grid",
+      };
+    }
+
+    const basePath = `model/hf/${encodeURIComponent(studyProgram)}`;
     const [generalConfig, categoriesConfig, modules] = await Promise.all([
       this.loadJson(`${basePath}/general-config.json`),
       this.loadJson(`${basePath}/standardcategories-config.json`),

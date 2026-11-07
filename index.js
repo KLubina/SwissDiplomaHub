@@ -3,7 +3,7 @@
 const ed = [
   {
     title: "ICT Manager ED",
-    file: "isolated-html/ict-manager-ed-lehrplan.html",
+    file: "study-plan.html?studiengang=rest/ict-manager-ed-lehrplan",
   },
 ];
 
@@ -49,46 +49,46 @@ const hfWeitere = [
 const fa = [
   {
     title: "Digital Collaboration Specialist FA",
-    file: "isolated-html/digital-collaboration-specialist-fa-lehrplan.html",
+    file: "study-plan.html?studiengang=rest/digital-collaboration-specialist-fa-lehrplan",
   },
   {
     title: "ICT Application Development Specialist FA Backend",
-    file: "isolated-html/ict-application-development-specialist-fa-backend-lehrplan.html",
+    file: "study-plan.html?studiengang=rest/ict-application-development-specialist-fa-backend-lehrplan",
   },
   {
     title: "ICT Application Development Specialist FA Data",
-    file: "isolated-html/ict-application-development-specialist-fa-data-lehrplan.html",
+    file: "study-plan.html?studiengang=rest/ict-application-development-specialist-fa-data-lehrplan",
   },
   {
     title: "ICT Application Development Specialist FA Frontend",
-    file: "isolated-html/ict-application-development-specialist-fa-frontend-lehrplan.html",
+    file: "study-plan.html?studiengang=rest/ict-application-development-specialist-fa-frontend-lehrplan",
   },
   {
     title: "ICT Application Development Specialist FA Mobile",
-    file: "isolated-html/ict-application-development-specialist-fa-mobile-lehrplan.html",
+    file: "study-plan.html?studiengang=rest/ict-application-development-specialist-fa-mobile-lehrplan",
   },
   {
     title: "ICT Platform Development Specialist FA",
-    file: "isolated-html/ict-platform-development-specialist-fa-lehrplan.html",
+    file: "study-plan.html?studiengang=rest/ict-platform-development-specialist-fa-lehrplan",
   },
   {
     title: "Wirtschaftsinformatiker FA",
-    file: "isolated-html/wirtschaftsinformatiker-fa-lehrplan.html",
+    file: "study-plan.html?studiengang=rest/wirtschaftsinformatiker-fa-lehrplan",
   },
 ];
 
 const efz = [
   {
     title: "Informatiker EFZ Applikationsentwicklung",
-    file: "isolated-html/informatiker-efz-appli-lehrplan.html",
+    file: "study-plan.html?studiengang=rest/informatiker-efz-appli-lehrplan",
   },
   {
     title: "Informatiker EFZ Plattformentwicklung",
-    file: "isolated-html/informatiker-efz-platt-lehrplan.html",
+    file: "study-plan.html?studiengang=rest/informatiker-efz-platt-lehrplan",
   },
   {
     title: "ICT Fachperson EFZ",
-    file: "isolated-html/ict-fachperson-efz-lehrplan.html",
+    file: "study-plan.html?studiengang=rest/ict-fachperson-efz-lehrplan",
   },
 ];
 

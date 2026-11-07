@@ -1,0 +1,144 @@
+{
+  "title": "ICT-Fachmann EFZ - Lehrplan",
+  "infoUrl": "https://www.modulbaukasten.ch/?d=ICT-Fachfrau%2FFachmann-EFZ-(ab-2026)",
+  "layout": "legacy-grid",
+  "sections": [
+    {
+      "name": "",
+      "columns": [
+        {
+          "label": "",
+          "styleClass": "",
+          "modules": []
+        },
+        {
+          "label": "Netzwerktechnologie",
+          "styleClass": "bg-grey-dark",
+          "modules": [
+            {
+              "name": "Modul 263 Sicherheit von ICT-Benutzerendgeräten gewährleisten",
+              "url": "",
+              "styleClass": "bg-grey-dark"
+            }
+          ]
+        },
+        {
+          "label": "Support-Anfragen",
+          "styleClass": "bg-blue",
+          "modules": [
+            {
+              "name": "Modul 370 Mit verschiedenen Anspruchsgruppen in einer Fremdsprache\n                    kommunizieren (Englisch)",
+              "url": "",
+              "styleClass": "bg-blue"
+            },
+            {
+              "name": "Modul 369 Konflikte im Support erkennen und deeskalieren (Englisch)",
+              "url": "",
+              "styleClass": "bg-blue"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "3. Semester",
+      "columns": [
+        {
+          "label": "Programmierung",
+          "styleClass": "bg-green",
+          "modules": [
+            {
+              "name": "Modul 122 Abläufe mit einer Scriptsprache automatisieren",
+              "url": "",
+              "styleClass": "bg-green"
+            }
+          ]
+        },
+        {
+          "label": "Netzwerktechnologie",
+          "styleClass": "bg-grey-dark",
+          "modules": [
+            {
+              "name": "Modul 208 Störungen in Virtualisierungs- und Cloudsystemen bearbeiten",
+              "url": "",
+              "styleClass": "bg-grey-dark"
+            },
+            {
+              "name": "Modul 129 LAN-Komponenten in Betrieb nehmen",
+              "url": "",
+              "styleClass": "bg-grey-dark"
+            }
+          ]
+        },
+        {
+          "label": "Support-Anfragen",
+          "styleClass": "bg-blue",
+          "modules": [
+            {
+              "name": "Modul 437 Supportarbeiten durchführen (Englisch)",
+              "url": "",
+              "styleClass": "bg-blue"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "2. Semester",
+      "columns": [
+        {
+          "label": "",
+          "styleClass": "",
+          "modules": []
+        },
+        {
+          "label": "Netzwerktechnologie",
+          "styleClass": "bg-grey-dark",
+          "modules": [
+            {
+              "name": "Modul 126 Peripheriegeräte im Netzwerkbetrieb einsetzen",
+              "url": "",
+              "styleClass": "bg-grey-dark"
+            },
+            {
+              "name": "Modul 123 Serverdienste in Betrieb nehmen",
+              "url": "",
+              "styleClass": "bg-grey-dark"
+            },
+            {
+              "name": "Modul 187 ICT-Benutzerendgeräte und Arbeitsplatz in Betrieb nehmen",
+              "url": "",
+              "styleClass": "bg-grey-dark"
+            },
+            {
+              "name": "Modul 117 Informatik- und Netzinfrastruktur für ein kleines Unternehmen\n                    realisieren",
+              "url": "",
+              "styleClass": "bg-grey-dark"
+            }
+          ]
+        },
+        {
+          "label": "Support-Anfragen",
+          "styleClass": "bg-blue",
+          "modules": [
+            {
+              "name": "Modul 334 Fachinformationen recherchieren und für sich selbst dokumentieren\n                    (Englisch)",
+              "url": "",
+              "styleClass": "bg-blue"
+            },
+            {
+              "name": "Modul 214 Benutzerinnen und Benutzer im Umgang mit Informatikmitteln\n                    instruieren",
+              "url": "",
+              "styleClass": "bg-blue"
+            },
+            {
+              "name": "Modul 431 Aufträge im eigenen Berufsumfeld selbstständig durchführen",
+              "url": "",
+              "styleClass": "bg-blue"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

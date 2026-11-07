@@ -1,0 +1,108 @@
+:root {
+  --rest-max-width: 1100px;
+  --rest-text: #333;
+  --rest-link: #0563c1;
+  --rest-border: #777;
+  --rest-green: #00b050;
+  --rest-green-light: #92d050;
+  --rest-blue: #4472c4;
+  --rest-grey: #595959;
+  --rest-devops: #6b8e23;
+  --rest-further-sw: #548235;
+}
+
+.legacy-grid {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin: 0;
+  color: var(--rest-text);
+  background: #fff;
+  font-family: Arial, sans-serif;
+  max-width: var(--rest-max-width);
+}
+
+.legacy-grid .container {
+  display: block;
+  width: 100%;
+  max-width: var(--rest-max-width);
+  padding: 16px;
+}
+
+.legacy-grid > .container > h1,
+.legacy-grid > .container > h2 {
+  display: none;
+}
+
+.legacy-grid .info-text {
+  padding: 12px;
+  font-size: 14px;
+  text-align: right;
+  line-height: 1.4;
+  color: #555;
+}
+
+.legacy-grid .content-row {
+  display: flex;
+  gap: 8px;
+  align-items: flex-end;
+  margin-bottom: 12px;
+}
+
+.legacy-grid .column {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.legacy-grid .box {
+  border: 1px solid var(--rest-border);
+  padding: 8px;
+  text-align: center;
+  color: #fff;
+  font-size: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 52px;
+  word-break: break-word;
+  color: #fff;
+}
+
+.legacy-grid .h-med {
+  min-height: 52px;
+}
+
+.legacy-grid .h-large {
+  min-height: 72px;
+}
+
+.legacy-grid .label-box {
+  min-height: 38px;
+  font-weight: bold;
+}
+
+.legacy-grid .semester-bar {
+  background: #000;
+  color: #fff;
+  text-align: center;
+  padding: 10px 0;
+  font-size: 18px;
+  font-weight: bold;
+  margin: 20px 0 10px;
+}
+
+.legacy-grid .bg-green { background: var(--rest-green); }
+.legacy-grid .bg-green-light { background: var(--rest-green-light); }
+.legacy-grid .bg-blue { background: var(--rest-blue); }
+.legacy-grid .bg-grey-network,
+.legacy-grid .bg-grey-dark { background: var(--rest-grey); }
+.legacy-grid .bg-devops { background: var(--rest-devops); }
+.legacy-grid .bg-web-dev { background: var(--rest-green); }
+.legacy-grid .bg-general-prog { background: var(--rest-green-light); }
+.legacy-grid .bg-further-sw { background: var(--rest-further-sw); }
+.legacy-grid > .container a:not(.box) {
+  color: var(--rest-link);
+  text-decoration: underline;
+}
