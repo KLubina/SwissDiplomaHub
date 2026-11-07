@@ -18,7 +18,7 @@
   {
     "name": "Block Organisation: Operationen überblicken",
     "year": 1,
-    "semester": 3,
+    "semester": 1,
     "lektionen": 5,
     "einheiten": "5 Wochen",
     "category": "Organisation"
@@ -26,7 +26,7 @@
   {
     "name": "Block Sicherheit: Sicherheit von Patientinnen und Patienten sowie Personal gewährleisten",
     "year": 1,
-    "semester": 4,
+    "semester": 2,
     "lektionen": 5,
     "einheiten": "5 Wochen",
     "category": "Sicherheit"
@@ -34,7 +34,7 @@
   {
     "name": "Block interprofessionelle Zusammenarbeit: Zusammenarbeit gestalten",
     "year": 1,
-    "semester": 5,
+    "semester": 1,
     "lektionen": 5,
     "einheiten": "5 Wochen",
     "category": "Interprofessionelle Zusammenarbeit"
@@ -42,7 +42,7 @@
   {
     "name": "Block Gesundheitsförderung und Prävention: Gesundheitserhaltung und Risiken minimieren",
     "year": 1,
-    "semester": 6,
+    "semester": 2,
     "lektionen": 5,
     "einheiten": "5 Wochen",
     "category": "Gesundheitsförderung und Prävention"
@@ -50,7 +50,7 @@
   {
     "name": "Block Rekonstruktion: Eingriffe zur Wiederherstellung von Funktionen",
     "year": 1,
-    "semester": 7,
+    "semester": 1,
     "lektionen": 5,
     "einheiten": "5 Wochen",
     "category": "Rekonstruktion"
@@ -74,7 +74,7 @@
   {
     "name": "Block Komplexität: Komplexe, anspruchsvolle Eingriffe handhaben",
     "year": 2,
-    "semester": 3,
+    "semester": 1,
     "lektionen": 5,
     "einheiten": "5 Wochen",
     "category": "Komplexität"
