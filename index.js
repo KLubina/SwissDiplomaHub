@@ -48,6 +48,10 @@ const hfWeitere = [
     title: "Dipl. Gebäudetechniker/-in HF",
     file: "study-plan.html?studiengang=gebaeudetechniker-hf",
   },
+  {
+    title: "Dipl. Techniker/in HF Bauplanung Ingenieurbau",
+    file: "study-plan.html?studiengang=bauplanung-ingenieurbau-hf",
+  },
 ];
 
 const fa = [

@@ -1,0 +1,266 @@
+[
+  {
+    "name": "Präsentationstechnik, Selbst- und Kompetenzmanagement",
+    "year": 1,
+    "semester": 1,
+    "lektionen": 2,
+    "einheiten": "2 Wochenlektionen",
+    "category": "Management und Kommunikation"
+  },
+  {
+    "name": "Betriebswirtschaft, Prozess- und Qualitätsmanagement",
+    "year": 1,
+    "semester": 1,
+    "lektionen": 2,
+    "einheiten": "2 Wochenlektionen",
+    "category": "Wirtschaft und Qualität"
+  },
+  {
+    "name": "Englisch",
+    "year": 1,
+    "semester": 1,
+    "lektionen": 2,
+    "einheiten": "2 Wochenlektionen",
+    "category": "Sprachen"
+  },
+  {
+    "name": "Informationstechnologien (O365, IT-Sicherheit, CAD, BIM)",
+    "year": 1,
+    "semester": 1,
+    "lektionen": 4,
+    "einheiten": "4 Wochenlektionen",
+    "category": "Informationstechnologien"
+  },
+  {
+    "name": "Mathematik, Software-Tools*",
+    "year": 1,
+    "semester": 1,
+    "lektionen": 4,
+    "einheiten": "4 Wochenlektionen",
+    "category": "Mathematik und Naturwissenschaften"
+  },
+  {
+    "name": "Präsentation",
+    "year": 1,
+    "semester": 1,
+    "lektionen": 2,
+    "einheiten": "2 Wochenlektionen",
+    "category": "Management und Kommunikation"
+  },
+  {
+    "name": "Englisch",
+    "year": 1,
+    "semester": 2,
+    "lektionen": 2,
+    "einheiten": "2 Wochenlektionen",
+    "category": "Sprachen"
+  },
+  {
+    "name": "Schriftliche Kommunikation",
+    "year": 1,
+    "semester": 2,
+    "lektionen": 2,
+    "einheiten": "2 Wochenlektionen",
+    "category": "Management und Kommunikation"
+  },
+  {
+    "name": "Projektmanagement",
+    "year": 1,
+    "semester": 2,
+    "lektionen": 2,
+    "einheiten": "2 Wochenlektionen",
+    "category": "Projekte und Diplomarbeit"
+  },
+  {
+    "name": "Physik",
+    "year": 1,
+    "semester": 2,
+    "lektionen": 4,
+    "einheiten": "4 Wochenlektionen",
+    "category": "Mathematik und Naturwissenschaften"
+  },
+  {
+    "name": "Mathematik, Software-Tools*",
+    "year": 1,
+    "semester": 2,
+    "lektionen": 4,
+    "einheiten": "4 Wochenlektionen",
+    "category": "Mathematik und Naturwissenschaften"
+  },
+  {
+    "name": "Projektarbeiten, Semesterarbeit",
+    "year": 1,
+    "semester": 2,
+    "lektionen": 2,
+    "einheiten": "2 Wochenlektionen",
+    "category": "Projekte und Diplomarbeit"
+  },
+  {
+    "name": "Bauphysik",
+    "year": 2,
+    "semester": 1,
+    "lektionen": 2,
+    "einheiten": "2 Wochenlektionen",
+    "category": "Bauplanung und Konstruktion"
+  },
+  {
+    "name": "Baustoffkunde, Bauchemie",
+    "year": 2,
+    "semester": 1,
+    "lektionen": 4,
+    "einheiten": "4 Wochenlektionen",
+    "category": "Bauplanung und Konstruktion"
+  },
+  {
+    "name": "Baustatik, Festigkeitslehre*",
+    "year": 2,
+    "semester": 1,
+    "lektionen": 4,
+    "einheiten": "4 Wochenlektionen",
+    "category": "Bauplanung und Konstruktion"
+  },
+  {
+    "name": "Baugrundlehre",
+    "year": 2,
+    "semester": 1,
+    "lektionen": 4,
+    "einheiten": "4 Wochenlektionen",
+    "category": "Bauplanung und Konstruktion"
+  },
+  {
+    "name": "Projektarbeiten, Semesterarbeit",
+    "year": 2,
+    "semester": 1,
+    "lektionen": 2,
+    "einheiten": "2 Wochenlektionen",
+    "category": "Projekte und Diplomarbeit"
+  },
+  {
+    "name": "Baumanagement",
+    "year": 2,
+    "semester": 2,
+    "lektionen": 4,
+    "einheiten": "4 Wochenlektionen",
+    "category": "Management und Kommunikation"
+  },
+  {
+    "name": "Ingenieurholzbau, Ingenieurstahlbau*",
+    "year": 2,
+    "semester": 2,
+    "lektionen": 4,
+    "einheiten": "4 Wochenlektionen",
+    "category": "Bauplanung und Konstruktion"
+  },
+  {
+    "name": "Stahlbetonbau",
+    "year": 2,
+    "semester": 2,
+    "lektionen": 4,
+    "einheiten": "4 Wochenlektionen",
+    "category": "Bauplanung und Konstruktion"
+  },
+  {
+    "name": "Verkehrswegbau",
+    "year": 2,
+    "semester": 2,
+    "lektionen": 2,
+    "einheiten": "2 Wochenlektionen",
+    "category": "Bauplanung und Konstruktion"
+  },
+  {
+    "name": "Projektarbeiten, Semesterarbeit",
+    "year": 2,
+    "semester": 2,
+    "lektionen": 2,
+    "einheiten": "2 Wochenlektionen",
+    "category": "Projekte und Diplomarbeit"
+  },
+  {
+    "name": "Leadership, Mitarbeiterführung",
+    "year": 3,
+    "semester": 1,
+    "lektionen": 2,
+    "einheiten": "2 Wochenlektionen",
+    "category": "Management und Kommunikation"
+  },
+  {
+    "name": "Verkehrswegbau",
+    "year": 3,
+    "semester": 1,
+    "lektionen": 4,
+    "einheiten": "4 Wochenlektionen",
+    "category": "Bauplanung und Konstruktion"
+  },
+  {
+    "name": "Umwelt, Sicherheit, Brandschutz",
+    "year": 3,
+    "semester": 1,
+    "lektionen": 2,
+    "einheiten": "2 Wochenlektionen",
+    "category": "Umwelt und Nachhaltigkeit"
+  },
+  {
+    "name": "Building Information Modeling",
+    "year": 3,
+    "semester": 1,
+    "lektionen": 2,
+    "einheiten": "2 Wochenlektionen",
+    "category": "Informationstechnologien"
+  },
+  {
+    "name": "Spezialtiefbau*, Wasserbau",
+    "year": 3,
+    "semester": 1,
+    "lektionen": 2,
+    "einheiten": "2 Wochenlektionen",
+    "category": "Bauplanung und Konstruktion"
+  },
+  {
+    "name": "Projektarbeiten, Semesterarbeit",
+    "year": 3,
+    "semester": 1,
+    "lektionen": 4,
+    "einheiten": "4 Wochenlektionen",
+    "category": "Projekte und Diplomarbeit"
+  },
+  {
+    "name": "Spezialtiefbau*, Wasserbau",
+    "year": 3,
+    "semester": 2,
+    "lektionen": 2,
+    "einheiten": "2 Wochenlektionen",
+    "category": "Bauplanung und Konstruktion"
+  },
+  {
+    "name": "Siedlungswasserwirtschaft",
+    "year": 3,
+    "semester": 2,
+    "lektionen": 4,
+    "einheiten": "4 Wochenlektionen",
+    "category": "Bauplanung und Konstruktion"
+  },
+  {
+    "name": "Denkmalpflege, Nachhaltiges Bauen",
+    "year": 3,
+    "semester": 2,
+    "lektionen": 2,
+    "einheiten": "2 Wochenlektionen",
+    "category": "Umwelt und Nachhaltigkeit"
+  },
+  {
+    "name": "Synthesearbeit",
+    "year": 3,
+    "semester": 2,
+    "lektionen": 2,
+    "einheiten": "2 Wochenlektionen",
+    "category": "Projekte und Diplomarbeit"
+  },
+  {
+    "name": "Diplomarbeit",
+    "year": 3,
+    "semester": 2,
+    "lektionen": 6,
+    "einheiten": "6 Wochenlektionen",
+    "category": "Projekte und Diplomarbeit"
+  }
+]

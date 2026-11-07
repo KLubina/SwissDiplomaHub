@@ -1,0 +1,36 @@
+{
+  "kategorien": [
+    {
+      "name": "Management und Kommunikation",
+      "klasse": "management"
+    },
+    {
+      "name": "Wirtschaft und Qualität",
+      "klasse": "wirtschaft"
+    },
+    {
+      "name": "Sprachen",
+      "klasse": "sprachen"
+    },
+    {
+      "name": "Informationstechnologien",
+      "klasse": "it"
+    },
+    {
+      "name": "Mathematik und Naturwissenschaften",
+      "klasse": "naturwissenschaften"
+    },
+    {
+      "name": "Bauplanung und Konstruktion",
+      "klasse": "gebaeudeautomation"
+    },
+    {
+      "name": "Umwelt und Nachhaltigkeit",
+      "klasse": "sicherheit"
+    },
+    {
+      "name": "Projekte und Diplomarbeit",
+      "klasse": "praxis"
+    }
+  ]
+}
