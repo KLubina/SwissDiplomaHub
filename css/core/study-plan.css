@@ -54,6 +54,24 @@ body.study-plan-page.modern-study-plan {
   gap: 24px;
 }
 
+.modern-study-plan .study-plan-content {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) 280px;
+  gap: 24px;
+  align-items: start;
+}
+
+.modern-study-plan .farben-legende {
+  grid-column: 2;
+  grid-row: 1;
+  position: sticky;
+  top: 20px;
+  margin: 0;
+  min-width: 0;
+  max-height: calc(100vh - 40px);
+  overflow-y: auto;
+}
+
 .modern-study-plan .jahr {
   margin: 0;
   padding: 24px;
@@ -107,11 +125,6 @@ body.study-plan-page.modern-study-plan {
   color: rgba(23, 43, 77, 0.7);
 }
 
-.modern-study-plan .farben-legende {
-  margin-top: 24px;
-  min-width: 0;
-}
-
 @media (max-width: 700px) {
   .modern-study-plan > .container {
     width: min(100% - 20px, 1440px);
@@ -129,5 +142,17 @@ body.study-plan-page.modern-study-plan {
 
   .modern-study-plan .jahr {
     padding: 16px;
+  }
+
+  .modern-study-plan .study-plan-content {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .modern-study-plan .farben-legende {
+    order: -1;
+    position: static;
+    width: 100%;
+    max-height: none;
   }
 }

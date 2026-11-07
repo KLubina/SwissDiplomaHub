@@ -1,5 +1,10 @@
 {
   "title": "Wirtschaftsinformatiker HF WISS",
   "subtitle": "Diplomstudium",
-  "links": []
+  "links": [
+    {
+      "label": "Zum Bildungsangebot bei WISS",
+      "url": "https://www.wiss.ch/de-CH/Angebot/Wirtschaftsinformatik/Dipl-Wirtschaftsinformatiker-in-HF"
+    }
+  ]
 }
