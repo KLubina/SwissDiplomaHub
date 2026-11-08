@@ -54,6 +54,17 @@ const hfWeitere = [
   },
 ];
 
+const favoriten = [
+  {
+    title: "Informatiker HF TEKO",
+    file: "study-plan.html?studiengang=informatiker-hf-teko",
+  },
+  {
+    title: "Gebäudeautomatiker HF",
+    file: "study-plan.html?studiengang=gebaeudeautomatiker-hf",
+  },
+];
+
 const fa = [
   {
     title: "Digital Collaboration Specialist FA",
@@ -111,9 +122,10 @@ function renderCards(hubs, containerId) {
   });
 }
 
-renderCards(ed, "edCards");
+renderCards(favoriten, "favoritenCards");
 renderCards(hfInformatiker, "hfInformatikerCards");
 renderCards(hfWirtschaftsinformatiker, "hfWirtschaftsinformatikerCards");
 renderCards(hfWeitere, "hfWeitereCards");
+renderCards(ed, "edCards");
 renderCards(fa, "faCards");
 renderCards(efz, "efzCards");
